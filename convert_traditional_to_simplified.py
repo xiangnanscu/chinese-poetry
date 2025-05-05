@@ -7,6 +7,7 @@ import re
 import sys
 import multiprocessing
 import time
+import argparse
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 try:
@@ -117,10 +118,55 @@ class ParagraphSplitPlugin(Plugin):
 
         return result
 
+# 写入p.txt插件
+class WriteToPTxtPlugin(Plugin):
+    def __init__(self):
+        super().__init__(
+            name="写入p.txt",
+            description="将title和paragraphs连接为一行，写入p.txt文件"
+        )
+        self.poems = []
+
+    def process(self, data):
+        """提取title和paragraphs，并保存到poems列表中"""
+        if isinstance(data, dict):
+            # 如果同时包含title和paragraphs，则认为是一首诗
+            if "title" in data and "paragraphs" in data and isinstance(data["paragraphs"], list):
+                title = data["title"]
+                paragraphs = "".join(data["paragraphs"]) if all(isinstance(p, str) for p in data["paragraphs"]) else ""
+                if title and paragraphs:
+                    poem_line = f"{title}|{paragraphs}"
+                    self.poems.append(poem_line)
+
+            # 继续处理其他键值对
+            for k, v in data.items():
+                self.process(v)
+        elif isinstance(data, list):
+            for item in data:
+                self.process(item)
+
+        # 返回原始数据，不做修改
+        return data
+
+    def write_to_file(self, directory):
+        """将收集到的诗写入p.txt文件"""
+        if not self.poems:
+            return
+
+        output_path = os.path.join(directory, "p.txt")
+        with open(output_path, 'a', encoding='utf-8') as f:
+            for poem in self.poems:
+                f.write(poem + "\n")
+
+        print(f"已将 {len(self.poems)} 首诗写入 {output_path}")
+        # 清空列表，为下一个目录做准备
+        self.poems = []
+
 # 创建插件列表
 plugins = [
     TraditionalToSimplifiedPlugin(),
-    ParagraphSplitPlugin()
+    ParagraphSplitPlugin(),
+    WriteToPTxtPlugin()
 ]
 
 def is_chinese_dir(dirname):
@@ -184,7 +230,17 @@ def process_directory_parallel(directory, workers=None):
             progress = (processed_files / total_files) * 100
             print(f"进度: {progress:.2f}% ({processed_files}/{total_files}) - {result}")
 
+    # 处理完目录后，写入收集到的诗
+    for plugin in plugins:
+        if isinstance(plugin, WriteToPTxtPlugin):
+            plugin.write_to_file(directory)
+
 def main():
+    # 解析命令行参数
+    parser = argparse.ArgumentParser(description="将古诗文集中的繁体字转换为简体字")
+    parser.add_argument('--dirs', nargs='+', help='要处理的文件夹列表，如果不指定则处理所有中文文件夹')
+    args = parser.parse_args()
+
     start_time = time.time()
 
     # 获取CPU核心数，确定并行进程数
@@ -200,17 +256,23 @@ def main():
     current_dir = os.getcwd()
     print(f"扫描目录: {current_dir}")
 
-    # 获取当前目录下的所有文件夹
-    all_dirs = [d for d in os.listdir(current_dir) if os.path.isdir(os.path.join(current_dir, d))]
+    # 如果指定了要处理的文件夹
+    if args.dirs:
+        chinese_dirs = [d for d in args.dirs if os.path.isdir(os.path.join(current_dir, d))]
+        if not chinese_dirs:
+            print("指定的文件夹不存在")
+            return
+        print(f"将处理指定的 {len(chinese_dirs)} 个文件夹:")
+    else:
+        # 获取当前目录下的所有文件夹
+        all_dirs = [d for d in os.listdir(current_dir) if os.path.isdir(os.path.join(current_dir, d))]
+        # 筛选出纯中文名称的文件夹
+        chinese_dirs = [d for d in all_dirs if is_chinese_dir(d)]
+        if not chinese_dirs:
+            print("未找到纯中文名称的文件夹")
+            return
+        print(f"找到 {len(chinese_dirs)} 个中文文件夹:")
 
-    # 筛选出纯中文名称的文件夹
-    chinese_dirs = [d for d in all_dirs if is_chinese_dir(d)]
-
-    if not chinese_dirs:
-        print("未找到纯中文名称的文件夹")
-        return
-
-    print(f"找到 {len(chinese_dirs)} 个中文文件夹:")
     for d in chinese_dirs:
         print(f" - {d}")
 
