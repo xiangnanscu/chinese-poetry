@@ -9,6 +9,7 @@ import multiprocessing
 import time
 import argparse
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from multiprocessing import Manager
 
 try:
     import opencc
@@ -18,6 +19,11 @@ except ImportError:
 
 # 创建一个全局的转换器实例
 converter = opencc.OpenCC('t2s')
+
+# 创建manager对象
+manager = Manager()
+# 创建共享列表
+shared_poems = manager.list()
 
 # 定义插件基类
 class Plugin:
@@ -120,13 +126,13 @@ class ParagraphSplitPlugin(Plugin):
 
 # 写入p.txt插件
 class WriteToPTxtPlugin(Plugin):
-    def __init__(self):
+    def __init__(self, shared_poems):
         print("写入p.txt插件初始化")
         super().__init__(
             name="写入p.txt",
             description="将title和paragraphs连接为一行，写入p.txt文件"
         )
-        self.poems = []
+        self.poems = shared_poems  # 使用共享列表
 
     def process(self, data):
         """提取title和paragraphs，并保存到poems列表中"""
@@ -138,9 +144,6 @@ class WriteToPTxtPlugin(Plugin):
                 if title and paragraphs:
                     poem_line = f"{title}|{paragraphs}"
                     self.poems.append(poem_line)
-                    print(f"找到诗歌: {title} (当前共有 {len(self.poems)} 首) {repr(self)}")
-                    print(self.poems)
-
             # 继续处理其他键值对
             for k, v in data.items():
                 self.process(v)
@@ -154,7 +157,7 @@ class WriteToPTxtPlugin(Plugin):
     def write_to_file(self, directory):
         """将收集到的诗写入p.txt文件"""
         if not self.poems:
-            print("没有诗歌可写入，跳过", repr(self))
+            print("没有诗歌可写入，跳过")
             return
 
         output_path = os.path.join(directory, "p.txt")
@@ -170,7 +173,7 @@ class WriteToPTxtPlugin(Plugin):
 plugins = [
     # TraditionalToSimplifiedPlugin(),
     # ParagraphSplitPlugin(),
-    WriteToPTxtPlugin()
+    WriteToPTxtPlugin(shared_poems)
 ]
 
 def is_chinese_dir(dirname):
@@ -232,7 +235,7 @@ def process_directory_parallel(directory, workers=None):
             result = future.result()
             processed_files += 1
             progress = (processed_files / total_files) * 100
-            # print(f"进度: {progress:.2f}% ({processed_files}/{total_files}) - {result}")
+            print(f"进度: {progress:.2f}% ({processed_files}/{total_files}) - {result}")
 
     # 处理完目录后，写入收集到的诗
     for plugin in plugins:
