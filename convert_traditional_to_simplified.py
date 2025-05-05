@@ -1,0 +1,213 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import json
+import re
+import sys
+import multiprocessing
+import time
+from concurrent.futures import ProcessPoolExecutor, as_completed
+
+try:
+    import opencc
+except ImportError:
+    print("需要安装opencc库。请运行: pip install opencc-python-reimplemented")
+    sys.exit(1)
+
+# 创建一个全局的转换器实例
+converter = opencc.OpenCC('t2s')
+
+# 定义插件基类
+class Plugin:
+    def __init__(self, name, description):
+        self.name = name
+        self.description = description
+
+    def process(self, data):
+        """处理数据，子类必须实现此方法"""
+        raise NotImplementedError("子类必须实现process方法")
+
+    def __str__(self):
+        return f"{self.name}: {self.description}"
+
+# 繁体转简体插件
+class TraditionalToSimplifiedPlugin(Plugin):
+    def __init__(self):
+        super().__init__(
+            name="繁体转简体",
+            description="将JSON数据中的繁体中文字符转换为简体中文"
+        )
+
+    def process(self, data):
+        """递归处理JSON数据，将繁体字转换为简体字"""
+        if isinstance(data, dict):
+            return {k: self.process(v) for k, v in data.items()}
+        elif isinstance(data, list):
+            return [self.process(item) for item in data]
+        elif isinstance(data, str):
+            return converter.convert(data)
+        else:
+            return data
+
+# 段落拆分插件
+class ParagraphSplitPlugin(Plugin):
+    def __init__(self):
+        super().__init__(
+            name="段落拆分",
+            description="拆分paragraphs中包含多个句号的段落"
+        )
+
+    def process(self, data):
+        """递归处理JSON数据，拆分paragraphs中包含多个句号的段落"""
+        if isinstance(data, dict):
+            result = {}
+            for k, v in data.items():
+                if k == "paragraphs" and isinstance(v, list):
+                    # 处理paragraphs属性
+                    result[k] = self._split_paragraph_list(v)
+                else:
+                    result[k] = self.process(v)
+            return result
+        elif isinstance(data, list):
+            return [self.process(item) for item in data]
+        else:
+            return data
+
+    def _split_paragraph_list(self, paragraph_list):
+        """处理段落列表，拆分包含多个句号的段落"""
+        result = []
+        for paragraph in paragraph_list:
+            if not isinstance(paragraph, str):
+                result.append(paragraph)
+                continue
+
+            # 检查是否需要拆分（判断最后一个字符之前是否含有中文句号）
+            if "。" in paragraph[:-1]:
+                # 按中文句号拆分，保留句号
+                segments = []
+                parts = paragraph.split("。")
+
+                # 处理每个部分并加回句号，除了最后一个空字符串
+                for i, part in enumerate(parts):
+                    if i < len(parts) - 1 or (i == len(parts) - 1 and part):
+                        if i < len(parts) - 1:  # 不是最后一个部分，加上句号
+                            segments.append(part + "。")
+                        else:  # 最后一个部分且不为空
+                            segments.append(part)
+
+                result.extend(segments)
+            else:
+                # 不需要拆分
+                result.append(paragraph)
+
+        return result
+
+# 创建插件列表
+plugins = [
+    TraditionalToSimplifiedPlugin(),
+    ParagraphSplitPlugin()
+]
+
+def is_chinese_dir(dirname):
+    """检查目录名是否全部由中文字符组成"""
+    pattern = re.compile(r'^[\u4e00-\u9fff]+$')
+    return bool(pattern.match(dirname))
+
+def convert_json_file(file_path):
+    """将JSON文件处理，应用所有插件"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        # 依次应用所有插件
+        for plugin in plugins:
+            data = plugin.process(data)
+
+        # 写回文件
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+        return f"已处理: {file_path}"
+    except Exception as e:
+        return f"处理 {file_path} 时出错: {str(e)}"
+
+def find_json_files(directory):
+    """查找目录下所有的JSON文件"""
+    json_files = []
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.json'):
+                json_files.append(os.path.join(root, file))
+    return json_files
+
+def process_directory_parallel(directory, workers=None):
+    """并行处理目录下的所有JSON文件"""
+    json_files = find_json_files(directory)
+    total_files = len(json_files)
+
+    if not json_files:
+        print(f"目录 {directory} 中没有找到JSON文件")
+        return
+
+    print(f"找到 {total_files} 个JSON文件，开始处理...")
+
+    # 如果未指定工作进程数，使用CPU核心数
+    if workers is None:
+        workers = multiprocessing.cpu_count()
+
+    # 使用ProcessPoolExecutor进行并行处理
+    processed_files = 0
+
+    with ProcessPoolExecutor(max_workers=workers) as executor:
+        # 提交所有任务
+        future_to_file = {executor.submit(convert_json_file, file): file for file in json_files}
+
+        # 处理完成的任务
+        for future in as_completed(future_to_file):
+            result = future.result()
+            processed_files += 1
+            progress = (processed_files / total_files) * 100
+            print(f"进度: {progress:.2f}% ({processed_files}/{total_files}) - {result}")
+
+def main():
+    start_time = time.time()
+
+    # 获取CPU核心数，确定并行进程数
+    cpu_count = multiprocessing.cpu_count()
+    # 使用CPU核心数作为默认进程数，但至少使用2个，最多使用CPU核心数
+    workers = max(2, cpu_count)
+
+    print(f"系统CPU核心数: {cpu_count}，使用 {workers} 个并行进程")
+    print(f"已加载 {len(plugins)} 个插件:")
+    for plugin in plugins:
+        print(f" - {plugin}")
+
+    current_dir = os.getcwd()
+    print(f"扫描目录: {current_dir}")
+
+    # 获取当前目录下的所有文件夹
+    all_dirs = [d for d in os.listdir(current_dir) if os.path.isdir(os.path.join(current_dir, d))]
+
+    # 筛选出纯中文名称的文件夹
+    chinese_dirs = [d for d in all_dirs if is_chinese_dir(d)]
+
+    if not chinese_dirs:
+        print("未找到纯中文名称的文件夹")
+        return
+
+    print(f"找到 {len(chinese_dirs)} 个中文文件夹:")
+    for d in chinese_dirs:
+        print(f" - {d}")
+
+    # 处理每个中文文件夹
+    for dir_name in chinese_dirs:
+        dir_path = os.path.join(current_dir, dir_name)
+        print(f"处理文件夹: {dir_path}")
+        process_directory_parallel(dir_path, workers=workers)
+
+    end_time = time.time()
+    print(f"转换完成，总耗时: {end_time - start_time:.2f} 秒")
+
+if __name__ == "__main__":
+    main()
