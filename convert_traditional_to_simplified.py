@@ -55,7 +55,7 @@ class ParagraphSplitPlugin(Plugin):
     def __init__(self):
         super().__init__(
             name="段落拆分",
-            description="拆分paragraphs中包含多个句号的段落"
+            description="拆分paragraphs中包含多个句号且句号后跟中文字符的段落"
         )
 
     def process(self, data):
@@ -74,31 +74,45 @@ class ParagraphSplitPlugin(Plugin):
         else:
             return data
 
+    def _is_chinese_char(self, char):
+        """检查字符是否是中文字符"""
+        return '\u4e00' <= char <= '\u9fff'
+
     def _split_paragraph_list(self, paragraph_list):
-        """处理段落列表，拆分包含多个句号的段落"""
+        """处理段落列表，只在句号后面是中文字符时才拆分段落"""
         result = []
         for paragraph in paragraph_list:
             if not isinstance(paragraph, str):
                 result.append(paragraph)
                 continue
 
-            # 检查是否需要拆分（判断最后一个字符之前是否含有中文句号）
-            if "。" in paragraph[:-1]:
-                # 按中文句号拆分，保留句号
-                segments = []
-                parts = paragraph.split("。")
+            # 初始化处理
+            segments = []
+            current_segment = ""
 
-                # 处理每个部分并加回句号，除了最后一个空字符串
-                for i, part in enumerate(parts):
-                    if i < len(parts) - 1 or (i == len(parts) - 1 and part):
-                        if i < len(parts) - 1:  # 不是最后一个部分，加上句号
-                            segments.append(part + "。")
-                        else:  # 最后一个部分且不为空
-                            segments.append(part)
+            # 遍历段落中的每个字符
+            i = 0
+            while i < len(paragraph):
+                current_segment += paragraph[i]
 
+                # 检查是否是句号且不是最后一个字符
+                if paragraph[i] == "。" and i < len(paragraph) - 1:
+                    # 检查句号后面的字符是否是中文
+                    if self._is_chinese_char(paragraph[i + 1]):
+                        # 句号后跟中文字符，添加当前段落并重置
+                        segments.append(current_segment)
+                        current_segment = ""
+
+                i += 1
+
+            # 添加最后的段落部分（如果有）
+            if current_segment:
+                segments.append(current_segment)
+
+            # 如果没有拆分，保留原始段落
+            if segments:
                 result.extend(segments)
             else:
-                # 不需要拆分
                 result.append(paragraph)
 
         return result
