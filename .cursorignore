@@ -1,1 +1,59 @@
+# 忽略常见的大型目录
+node_modules/
+dist/
+build/
+.git/
+venv/
+ENV/
+__pycache__/
+
+# 中文古诗数据文件（这些可能是大型JSON或文本文件）
+蒙学/
+论语/
+诗经/
+曹操诗集/
+楚辞/
+水墨唐诗/
+纳兰性德/
+宋词/
+幽梦影/
+御定全唐詩/
+四书五经/
+全唐诗/
+五代诗词/
+元曲/
+rank/
+strains/
+
+# 忽略日志文件
+*.log
+log.log
+
+# 忽略媒体文件
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp3
+*.mp4
+
+# 忽略大型数据文件
 *.json
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# 忽略IDE和编辑器相关文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略依赖锁文件
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+

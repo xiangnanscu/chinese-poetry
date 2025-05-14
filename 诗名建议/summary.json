@@ -1,0 +1,6207 @@
+{
+  "totalPoems": 366,
+  "successCount": 357,
+  "failCount": 9,
+  "results": [
+    {
+      "title": "在嶽詠蟬",
+      "author": "駱賓王",
+      "result": [
+        {
+          "name": "蝉鸣",
+          "sex": "男",
+          "desc": "蝉鸣声声，象征着积极向上，不畏艰难"
+        },
+        {
+          "name": "南冠",
+          "sex": "男",
+          "desc": "虽有羁旅之意，但亦可引申为胸怀天下，心系苍生"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登幽州臺歌",
+      "author": "陳子昂",
+      "result": [
+        {
+          "name": "天地",
+          "sex": "男",
+          "desc": "心胸宽广，有担当"
+        },
+        {
+          "name": "古来",
+          "sex": "男",
+          "desc": "饱经世事，富有哲理"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "經鄒魯祭孔子而歎之",
+      "author": "明皇帝",
+      "result": [
+        {
+          "name": "子宫",
+          "sex": "女",
+          "desc": "指代女性生殖系统，象征着生命与孕育，但作为名字较为特殊，需谨慎考虑"
+        },
+        {
+          "name": "鲁宫",
+          "sex": "男女皆可",
+          "desc": "鲁国宫殿，大气磅礴，寓意着高贵和不凡"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "鼓吹曲辭 將進酒",
+      "author": "李白",
+      "result": [
+        {
+          "name": "河水",
+          "sex": "男",
+          "desc": "源远流长，生生不息"
+        },
+        {
+          "name": "金尊",
+          "sex": "男",
+          "desc": "尊贵，富足，享受人生"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "橫吹曲辭 出塞 一",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "美好、诗意，象征着温柔和永恒"
+        },
+        {
+          "name": "龙城",
+          "sex": "男",
+          "desc": "大气磅礴，象征着坚毅和守护"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "橫吹曲辭 出塞",
+      "author": "王之渙",
+      "result": [
+        {
+          "name": "砂白",
+          "sex": "女",
+          "desc": "纯洁无瑕，气质脱俗"
+        },
+        {
+          "name": "云间",
+          "sex": "女",
+          "desc": "超凡脱俗，气质飘逸"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "橫吹曲辭 關山月",
+      "author": "李白",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-flash\",\"location\":\"global\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"52s\"}]",
+      "success": false
+    },
+    {
+      "title": "新嫁娘詞三首 三",
+      "author": "王建",
+      "result": [
+        {
+          "name": "洗手",
+          "sex": "女",
+          "desc": "干净利落，贤惠温柔"
+        },
+        {
+          "name": "羹汤",
+          "sex": "女",
+          "desc": "温婉可人，富有生活气息"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "故行宮",
+      "author": "王建",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-flash\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"52s\"}]",
+      "success": false
+    },
+    {
+      "title": "錦瑟",
+      "author": "李商隱",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-flash\",\"location\":\"global\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"52s\"}]",
+      "success": false
+    },
+    {
+      "title": "蟬",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "高树",
+          "sex": "男",
+          "desc": "高瞻远瞩，稳如青松"
+        },
+        {
+          "name": "费声",
+          "sex": "男",
+          "desc": "虽劳累但有价值，有担当"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "樂遊原",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "晚意",
+          "sex": "女",
+          "desc": "温柔婉约，富有诗意"
+        },
+        {
+          "name": "夕阳",
+          "sex": "男女皆可",
+          "desc": "温暖美好，充满希望，但也有着对时光流逝的感伤，适合有深沉内涵的人。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夜雨寄北",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "巴山",
+          "sex": "男",
+          "desc": "具有男子气概，胸怀宽广"
+        },
+        {
+          "name": "夜雨",
+          "sex": "女",
+          "desc": "温柔婉约，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "韓碑",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "元和",
+          "sex": "男",
+          "desc": "取诗歌标题，寓意盛世之治，大气磅礴"
+        },
+        {
+          "name": "神武",
+          "sex": "男",
+          "desc": "源于诗歌首句，形容人英勇威猛，充满力量"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "風雨",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "寶劍",
+          "sex": "男",
+          "desc": "象征刚毅正直，锐意进取"
+        },
+        {
+          "name": "黃葉",
+          "sex": "男",
+          "desc": "虽然带有落寞的意境，但也可引申为成熟稳重"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄令狐郎中",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "嵩雲",
+          "sex": "男",
+          "desc": "嵩山之高，云端之远，寓意胸怀宽广，志向高远"
+        },
+        {
+          "name": "秦樹",
+          "sex": "男",
+          "desc": "秦朝的树木，象征坚韧与长久，寓意稳重可靠"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "隋宮",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "紫霞",
+          "sex": "女",
+          "desc": "色彩绚丽，如梦似幻，寓意美好，前途光明"
+        },
+        {
+          "name": "城涯",
+          "sex": "男",
+          "desc": "胸怀广阔，志向远大，立足一方，走向远方"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "籌筆驛",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "風雲",
+          "sex": "男",
+          "desc": "名字大气磅礴，寓意着胸怀大志，能够掌控全局，成就一番事业。"
+        },
+        {
+          "name": "雲書",
+          "sex": "女",
+          "desc": "名字诗意优雅，寓意着才情出众，气质脱俗，宛若天上的祥云，令人心驰神往。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "無題二首 一",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "星辰",
+          "sex": "女",
+          "desc": "美好、闪耀，象征着希望和未来"
+        },
+        {
+          "name": "灵犀",
+          "sex": "女",
+          "desc": "心灵相通，智慧通达，寓意聪慧灵敏"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "無題四首 一",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "楼月",
+          "sex": "女",
+          "desc": "高雅脱俗，温柔娴静，月色朦胧，楼台静谧"
+        },
+        {
+          "name": "月梦",
+          "sex": "女",
+          "desc": "梦幻飘渺，温柔多情，富有诗意，令人向往"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "無題四首 二",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "東風",
+          "sex": "男",
+          "desc": "象征着勃勃生机和希望，名字寓意着蓬勃发展和前途光明"
+        },
+        {
+          "name": "芙蓉",
+          "sex": "女",
+          "desc": "芙蓉花姿态优美，色彩艳丽，象征着美丽和高洁，名字寓意着清丽脱俗和气质高雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "隋宮",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "乘風",
+          "sex": "男",
+          "desc": "寓意乘风破浪，前途光明，名字简洁大气"
+        },
+        {
+          "name": "南錦",
+          "sex": "女",
+          "desc": "带有江南的婉约之美，锦绣前程的寓意，适合女性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "落花",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "阁飞",
+          "sex": "女",
+          "desc": "高雅脱俗，自由奔放"
+        },
+        {
+          "name": "园归",
+          "sex": "女",
+          "desc": "心怀田园，落落大方"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "爲有",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "雲嬌",
+          "sex": "女",
+          "desc": "美丽温柔，姿态优雅"
+        },
+        {
+          "name": "屏宵",
+          "sex": "女",
+          "desc": "娴静内敛，神秘浪漫"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "無題",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "東風",
+          "sex": "男",
+          "desc": "象征着勃勃生机和希望，名字响亮大气"
+        },
+        {
+          "name": "曉鏡",
+          "sex": "女",
+          "desc": "有古典诗词的意境，优雅内敛，寓意智慧和美丽"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "瑤池",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "瑶池",
+          "sex": "女",
+          "desc": "充满仙气，美丽脱俗"
+        },
+        {
+          "name": "阿母",
+          "sex": "女",
+          "desc": "体现母爱的伟大，令人尊敬"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春雨",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "春衣",
+          "sex": "女",
+          "desc": "清新脱俗，青春靓丽"
+        },
+        {
+          "name": "珠箔",
+          "sex": "女",
+          "desc": "华贵典雅，高贵大气"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "常娥",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "雲母",
+          "sex": "女",
+          "desc": "高贵典雅，气质脱俗"
+        },
+        {
+          "name": "曉星",
+          "sex": "女",
+          "desc": "清新脱俗，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "無題二首 一",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "香羅",
+          "sex": "女",
+          "desc": "香气扑鼻，姿态优雅，有美好的寓意"
+        },
+        {
+          "name": "月魄",
+          "sex": "女",
+          "desc": "气质清冷，高洁脱俗，带有神秘感"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "無題二首 二",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "愁堂",
+          "sex": "女",
+          "desc": "名字取自诗句开头，营造出一种深闺女子幽怨却坚韧的意境, \"愁\"字点明诗歌基调， \"堂\"字则有大家闺秀之感。"
+        },
+        {
+          "name": "清宵",
+          "sex": "女",
+          "desc": "出自诗句\"臥後清宵細細長\"，\"清宵\"意指宁静的夜晚，清新脱俗，适合气质优雅的女性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "賈生",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "賢臣",
+          "sex": "男",
+          "desc": "才能出众，忠君爱国"
+        },
+        {
+          "name": "夜生",
+          "sex": "男",
+          "desc": "才华横溢，富有生命力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "涼思",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "波蝉",
+          "sex": "男",
+          "desc": "意境深远，悠然自得"
+        },
+        {
+          "name": "露枝",
+          "sex": "女",
+          "desc": "清新脱俗，富有生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "北青蘿",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "陽僧",
+          "sex": "男",
+          "desc": "意指豁达的僧人，象征超然物外，宁静致远"
+        },
+        {
+          "name": "落雲",
+          "sex": "男女皆可",
+          "desc": "意指飘逸洒脱，超凡脱俗，象征自由与洒脱"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "赤壁",
+      "author": "李商隱",
+      "result": [
+        {
+          "name": "铁销",
+          "sex": "男",
+          "desc": "坚韧不拔，锐意进取"
+        },
+        {
+          "name": "东乔",
+          "sex": "女",
+          "desc": "朝气蓬勃，秀外慧中"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "章臺夜思",
+      "author": "韋莊",
+      "result": [
+        {
+          "name": "清怨",
+          "sex": "女",
+          "desc": "名字取自诗句首字，清冷幽怨，但包含诗意美感，适合女性。"
+        },
+        {
+          "name": "章臺",
+          "sex": "男女皆可",
+          "desc": "取自诗句中的地点名词，章台，象征着美好的爱情和文化底蕴，适合男女皆可。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "金陵圖",
+      "author": "韋莊",
+      "result": [
+        {
+          "name": "伤心",
+          "sex": "女",
+          "desc": "此处的“伤心”并非消极悲伤之意，而是指代绘画作品触动人心，引人深思，具有艺术感染力。作为名字，寓意富有艺术才情，情感丰富"
+        },
+        {
+          "name": "画心",
+          "sex": "女",
+          "desc": "绘画之心，寓意心灵手巧，富有创造力，纯真善良"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "臺城",
+      "author": "韋莊",
+      "result": [
+        {
+          "name": "江雨",
+          "sex": "女",
+          "desc": "诗意浪漫，温柔婉约"
+        },
+        {
+          "name": "雨齐",
+          "sex": "女",
+          "desc": "清新自然，富有生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宮詞",
+      "author": "薛逢",
+      "result": [
+        {
+          "name": "曉妝",
+          "sex": "女",
+          "desc": "清新脱俗，美丽动人"
+        },
+        {
+          "name": "望仙",
+          "sex": "男女皆可",
+          "desc": "志向高远，追求美好"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "楚江懷古三首 一",
+      "author": "馬戴",
+      "result": [
+        {
+          "name": "寒光",
+          "sex": "男",
+          "desc": "气质清冷，才华横溢"
+        },
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "气质高雅，温柔娴静"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "灞上秋居",
+      "author": "馬戴",
+      "result": [
+        {
+          "name": "原雁",
+          "sex": "男",
+          "desc": "原指开阔的原野，象征广阔的胸襟和远大的抱负；雁象征着归途和希望，寓意不忘初心，前程似锦。名字读来大气磅礴，富有诗意。"
+        },
+        {
+          "name": "雨灯",
+          "sex": "女",
+          "desc": "雨指温柔细雨，象征女性的温柔和善良；灯指光明和希望，寓意照亮前程，温暖人心。名字读来清新脱俗，富有诗意。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "馬嵬坡",
+      "author": "鄭畋",
+      "result": [
+        {
+          "name": "日月",
+          "sex": "男女皆可",
+          "desc": "象征着光明和希望，寓意着新生和永恒"
+        },
+        {
+          "name": "宗新",
+          "sex": "男",
+          "desc": "体现着尊崇和革新，寓意着开拓进取"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "沒蕃故人",
+      "author": "張籍",
+      "result": [
+        {
+          "name": "月支",
+          "sex": "男",
+          "desc": "象征着远大的志向和丰收的喜悦"
+        },
+        {
+          "name": "長別",
+          "sex": "男女皆可",
+          "desc": "体现了对过往的怀念和对未来的期许，名字寓意深刻，但略显伤感"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春怨",
+      "author": "金昌緒",
+      "result": [
+        {
+          "name": "鶯啼",
+          "sex": "女",
+          "desc": "活泼灵动，婉转动听"
+        },
+        {
+          "name": "黃鶯",
+          "sex": "女",
+          "desc": "颜色鲜明，充满活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "遣悲懷三首 一",
+      "author": "元稹",
+      "result": [
+        {
+          "name": "公女",
+          "sex": "女",
+          "desc": "有公德的女子，美好善良"
+        },
+        {
+          "name": "最小",
+          "sex": "女",
+          "desc": "娇小可爱，寓意珍贵"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "遣悲懷三首 二",
+      "author": "元稹",
+      "result": [
+        {
+          "name": "日意",
+          "sex": "女",
+          "desc": "象征着对未来的美好期许和积极乐观的心态"
+        },
+        {
+          "name": "衣針",
+          "sex": "女",
+          "desc": "体现了女性的细致和勤劳，也包含着对过往的珍视和怀念"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "遣悲懷三首 三",
+      "author": "元稹",
+      "result": [
+        {
+          "name": "百年",
+          "sex": "男",
+          "desc": "寓意长寿，具有历史感和沧桑感，适合沉稳内敛的男性。"
+        },
+        {
+          "name": "知命",
+          "sex": "男",
+          "desc": "出自“邓攸无子寻知命”，指了解天命，豁达乐观，适合有担当的男性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "行宮",
+      "author": "元稹",
+      "result": [
+        {
+          "name": "宫花",
+          "sex": "女",
+          "desc": "美丽而略带忧愁，具有古典韵味"
+        },
+        {
+          "name": "白头",
+          "sex": "男女皆可",
+          "desc": "虽然字面指年老，但在名字中寓意着相守到老，白头偕老的爱情与长寿。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "哥舒歌",
+      "author": "西鄙人",
+      "result": [
+        {
+          "name": "北斗",
+          "sex": "男",
+          "desc": "象征着指引方向，寓意着光明和希望"
+        },
+        {
+          "name": "高哥",
+          "sex": "男",
+          "desc": "名字大气，有气势，体现一种英雄气概"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜詩 十三",
+      "author": "無名氏",
+      "result": [
+        {
+          "name": "寒柳",
+          "sex": "女",
+          "desc": "姿态优雅，婀娜多姿"
+        },
+        {
+          "name": "雨草",
+          "sex": "女",
+          "desc": "清新脱俗，富有生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜詩三首 三",
+      "author": "沈佺期",
+      "result": [
+        {
+          "name": "龍城",
+          "sex": "男",
+          "desc": "霸气，坚毅，象征着男子气概和远大抱负"
+        },
+        {
+          "name": "閨月",
+          "sex": "女",
+          "desc": "温柔，娴静，富有诗意，象征着女子内心的美好和温柔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "古意呈補闕喬知之",
+      "author": "沈佺期",
+      "result": [
+        {
+          "name": "海燕",
+          "sex": "女",
+          "desc": "形容女子灵动，气质出众，如海燕般自由"
+        },
+        {
+          "name": "寒砧",
+          "sex": "男",
+          "desc": "名字意境深远，略带沧桑感，但同时也体现了一种坚毅和韧性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "次北固山下",
+      "author": "王灣",
+      "result": [
+        {
+          "name": "舟前",
+          "sex": "男",
+          "desc": "前程似锦，一往无前"
+        },
+        {
+          "name": "江春",
+          "sex": "男女皆可",
+          "desc": "生机勃勃，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "桃花谿",
+      "author": "張旭",
+      "result": [
+        {
+          "name": "飞桥",
+          "sex": "男女皆可",
+          "desc": "意境优美，超凡脱俗"
+        },
+        {
+          "name": "桥溪",
+          "sex": "女",
+          "desc": "清秀雅致，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送別",
+      "author": "王維",
+      "result": [
+        {
+          "name": "君山",
+          "sex": "男",
+          "desc": "高洁、隐逸，象征着超凡脱俗的品格和对自由的追求"
+        },
+        {
+          "name": "馬歸",
+          "sex": "男",
+          "desc": "寓意着经历风雨后的回归与平静，也象征着一种洒脱与归隐的境界"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送綦毋潛落第還鄉",
+      "author": "王維",
+      "result": [
+        {
+          "name": "英灵",
+          "sex": "男",
+          "desc": "英勇杰出，精神饱满"
+        },
+        {
+          "name": "长道",
+          "sex": "男",
+          "desc": "道路漫长，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "青谿",
+      "author": "王維",
+      "result": [
+        {
+          "name": "黄花",
+          "sex": "女",
+          "desc": "高贵典雅，美丽脱俗"
+        },
+        {
+          "name": "青溪",
+          "sex": "女",
+          "desc": "清新脱俗，自然灵动"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "渭川田家",
+      "author": "王維",
+      "result": [
+        {
+          "name": "陽歸",
+          "sex": "男",
+          "desc": "象征着温暖和归宿，寓意着平安和幸福"
+        },
+        {
+          "name": "麥秀",
+          "sex": "女",
+          "desc": "体现了丰收的喜悦和生命的蓬勃，寓意着健康和活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "西施詠",
+      "author": "王維",
+      "result": [
+        {
+          "name": "西施",
+          "sex": "女",
+          "desc": "美丽，典雅，令人惊艳"
+        },
+        {
+          "name": "朝暮",
+          "sex": "女",
+          "desc": "时间流逝，光阴似箭，也象征着女性温柔贤淑的性格"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "老將行",
+      "author": "王維",
+      "result": [
+        {
+          "name": "少年",
+          "sex": "男",
+          "desc": "朝气蓬勃，富有活力"
+        },
+        {
+          "name": "射虎",
+          "sex": "男",
+          "desc": "勇猛威武，精明强干"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "桃源行",
+      "author": "王維",
+      "result": [
+        {
+          "name": "山春",
+          "sex": "女",
+          "desc": "描绘了春天美丽的景色，名字寓意着青春美好，朝气蓬勃"
+        },
+        {
+          "name": "溪竹",
+          "sex": "女",
+          "desc": "溪水潺潺，竹影婆娑，清新脱俗，优雅宁静"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "洛陽女兒行",
+      "author": "王維",
+      "result": [
+        {
+          "name": "容颜",
+          "sex": "女",
+          "desc": "形容女子容貌美丽，气质优雅，有美好前程"
+        },
+        {
+          "name": "朱楼",
+          "sex": "男女皆可",
+          "desc": "朱楼指红色的楼阁，象征富贵吉祥，前程似锦"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "輞川閑居贈裴秀才迪",
+      "author": "王維",
+      "result": [
+        {
+          "name": "寒水",
+          "sex": "男",
+          "desc": "清冷而深沉，如寒山秋水般宁静致远"
+        },
+        {
+          "name": "翠烟",
+          "sex": "女",
+          "desc": "秀美而飘逸，如山翠秋烟般空灵淡雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "酬張少府",
+      "author": "王維",
+      "result": [
+        {
+          "name": "晚林",
+          "sex": "男",
+          "desc": "象征归隐田园，淡泊名利，但又不失文雅和品味"
+        },
+        {
+          "name": "松月",
+          "sex": "男女皆可",
+          "desc": "意境优美，宁静致远，象征高洁的品格"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送梓州李使君",
+      "author": "王維",
+      "result": [
+        {
+          "name": "树杪",
+          "sex": "男",
+          "desc": "富有生命力，充满希望"
+        },
+        {
+          "name": "百泉",
+          "sex": "女",
+          "desc": "清澈灵动，富饶秀丽"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "玉臺體十二首 十一",
+      "author": "權德輿",
+      "result": [
+        {
+          "name": "夜飞",
+          "sex": "女",
+          "desc": "轻盈灵动，自由洒脱"
+        },
+        {
+          "name": "裙带",
+          "sex": "女",
+          "desc": "温婉柔美，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "山石",
+      "author": "韓愈",
+      "result": [
+        {
+          "name": "石飞",
+          "sex": "男",
+          "desc": "刚毅果决，勇往直前"
+        },
+        {
+          "name": "月岭",
+          "sex": "女",
+          "desc": "气质清幽，超凡脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "八月十五夜贈張功曹",
+      "author": "韓愈",
+      "result": [
+        {
+          "name": "清波",
+          "sex": "女",
+          "desc": "名字优雅，富有诗意，象征着纯洁、宁静与美好"
+        },
+        {
+          "name": "天歌",
+          "sex": "男",
+          "desc": "大气磅礴，意境开阔，象征着胸怀宽广，才华横溢"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "謁衡嶽廟遂宿嶽寺題門樓",
+      "author": "韓愈",
+      "result": [
+        {
+          "name": "嶽嵩",
+          "sex": "男",
+          "desc": "巍峨高耸，气度不凡"
+        },
+        {
+          "name": "天雄",
+          "sex": "男",
+          "desc": "雄心壮志，志向高远"
+        },
+        {
+          "name": "清风",
+          "sex": "男女皆可",
+          "desc": "清新脱俗，心地纯洁"
+        },
+        {
+          "name": "灵宫",
+          "sex": "男女皆可",
+          "desc": "神圣庄严，超凡脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "已涼",
+      "author": "韓偓",
+      "result": [
+        {
+          "name": "绣帘",
+          "sex": "女",
+          "desc": "色彩鲜艳，典雅华贵"
+        },
+        {
+          "name": "阑干",
+          "sex": "男女皆可",
+          "desc": "姿态优美，坚韧稳重"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春宮怨",
+      "author": "杜荀鶴",
+      "result": [
+        {
+          "name": "娟容",
+          "sex": "女",
+          "desc": "娟秀美丽，容貌姣好，名字优雅，有古典韵味"
+        },
+        {
+          "name": "暖重",
+          "sex": "女",
+          "desc": "温暖厚重，给人安全感，也象征着成熟稳重"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "近試上張籍水部",
+      "author": "朱慶餘",
+      "result": [
+        {
+          "name": "晓堂",
+          "sex": "女",
+          "desc": "象征着清晨的阳光和高雅的堂室，寓意着女子明朗乐观，富有内涵"
+        },
+        {
+          "name": "停紅",
+          "sex": "女",
+          "desc": "虽然“紅”字代表颜色，但“停紅燭”意境优美，适合女子名字，寓意温柔婉约"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "將赴吳興登樂遊原一絕",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "清愛",
+          "sex": "女",
+          "desc": "清秀淡雅，温柔善良"
+        },
+        {
+          "name": "雲僧",
+          "sex": "男女皆可",
+          "desc": "超然脱俗，心怀慈悲"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "赤壁",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "铁销",
+          "sex": "男",
+          "desc": "坚韧不拔，锐意进取"
+        },
+        {
+          "name": "东乔",
+          "sex": "女",
+          "desc": "朝气蓬勃，美丽优雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "泊秦淮",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "寒月",
+          "sex": "女",
+          "desc": "清冷脱俗，气质高雅"
+        },
+        {
+          "name": "水沙",
+          "sex": "女",
+          "desc": "温柔婉约，秀气灵动"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "贈別二首 一",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "娉娉",
+          "sex": "女",
+          "desc": "姿态美好，柔美动人"
+        },
+        {
+          "name": "春風",
+          "sex": "男女皆可",
+          "desc": "温暖舒畅，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "贈別二首 二",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "多情",
+          "sex": "女",
+          "desc": "情感丰富，富有同情心"
+        },
+        {
+          "name": "烛泪",
+          "sex": "女",
+          "desc": "温柔多情，心地善良"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "遣懷",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "江南",
+          "sex": "女",
+          "desc": "既有地域特色，又有温柔婉约之感"
+        },
+        {
+          "name": "揚州",
+          "sex": "男女皆可",
+          "desc": "地名，大气磅礴，适合男孩，也适合有独特气质的女孩"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秋夕",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "秋光",
+          "sex": "女",
+          "desc": "秋高气爽，充满诗情画意，适合女性，优雅大气"
+        },
+        {
+          "name": "羅扇",
+          "sex": "女",
+          "desc": "轻盈飘逸，有美好的意境，适合女性，名字独特"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "金谷園",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "流水",
+          "sex": "女",
+          "desc": "形容女子温柔似水，柔情似水，同时蕴含着生生不息，充满希望的寓意。"
+        },
+        {
+          "name": "暮春",
+          "sex": "女",
+          "desc": "暮色与春天结合，给人一种温柔恬静，又充满生机与希望的美感。适合温柔内敛的女性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "旅宿",
+      "author": "杜牧",
+      "result": [
+        {
+          "name": "凝情",
+          "sex": "女",
+          "desc": "气质优雅，感情细腻"
+        },
+        {
+          "name": "寒雁",
+          "sex": "男",
+          "desc": "沉稳内敛，志向高远"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "早秋三首 一",
+      "author": "許渾",
+      "result": [
+        {
+          "name": "清瑟",
+          "sex": "女",
+          "desc": "清雅脱俗，音律悠扬"
+        },
+        {
+          "name": "翠蘿",
+          "sex": "女",
+          "desc": "清新秀丽，富有生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秋日赴闕題潼關驛樓",
+      "author": "許渾",
+      "result": [
+        {
+          "name": "晚萧",
+          "sex": "女",
+          "desc": "萧瑟秋景，却别有一番意境，名字优雅，有诗意。"
+        },
+        {
+          "name": "河声",
+          "sex": "男",
+          "desc": "气势磅礴，声音洪亮，象征着广阔的胸襟和远大的志向。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄人 一",
+      "author": "張泌",
+      "result": [
+        {
+          "name": "依依",
+          "sex": "女",
+          "desc": "温柔婉约，惹人怜爱"
+        },
+        {
+          "name": "谢家",
+          "sex": "男女皆可",
+          "desc": "高贵典雅，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "隴西行四首 二",
+      "author": "陳陶",
+      "result": [
+        {
+          "name": "掃塵",
+          "sex": "男",
+          "desc": "象征着积极进取，清除障碍，开创未来"
+        },
+        {
+          "name": "春閨",
+          "sex": "女",
+          "desc": "富有诗意，象征着美好爱情和温柔气质"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "頌古三十二首  其二三",
+      "author": "釋明辯",
+      "result": [
+        {
+          "name": "鶯夢",
+          "sex": "女",
+          "desc": "黄莺啼叫，象征着美好，梦境则代表着希望和憧憬，名字体现女性的温柔和向往"
+        },
+        {
+          "name": "黃啼",
+          "sex": "男",
+          "desc": "黄莺鸣叫，声音清脆响亮，有活力，名字寓意着积极向上和充满朝气"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "後宮詞",
+      "author": "白居易",
+      "result": [
+        {
+          "name": "夜深",
+          "sex": "男",
+          "desc": "沉稳内敛，富有神秘感"
+        },
+        {
+          "name": "紅顏",
+          "sex": "女",
+          "desc": "美丽，青春，但也暗示着短暂的美丽"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "喜見外弟又言別",
+      "author": "李益",
+      "result": [
+        {
+          "name": "離長",
+          "sex": "男",
+          "desc": "离乱之后，依然长大，名字体现了时间的跨度和人生的成长，大气磅礴"
+        },
+        {
+          "name": "長憶",
+          "sex": "女",
+          "desc": "长久的回忆，温柔婉约，适合女性，体现了深情和怀旧"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "江南詞",
+      "author": "李益",
+      "result": [
+        {
+          "name": "朝朝",
+          "sex": "女",
+          "desc": "体现女性的温柔和等待，但略显重复，需要根据具体语境判断"
+        },
+        {
+          "name": "潮信",
+          "sex": "男女皆可",
+          "desc": "蕴含着希望和期盼，象征着信息的传递和未来的可能性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夜上受降城聞笛",
+      "author": "李益",
+      "result": [
+        {
+          "name": "沙月",
+          "sex": "女",
+          "desc": "温柔如月，清冷脱俗"
+        },
+        {
+          "name": "月征",
+          "sex": "男",
+          "desc": "心怀家国，壮志凌云"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "聽箏",
+      "author": "李端",
+      "result": [
+        {
+          "name": "金粟",
+          "sex": "女",
+          "desc": "富贵吉祥，光彩照人"
+        },
+        {
+          "name": "素手",
+          "sex": "女",
+          "desc": "优雅灵巧，气质脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "賊平後送人北歸",
+      "author": "司空曙",
+      "result": [
+        {
+          "name": "世清",
+          "sex": "男",
+          "desc": "象征着乱世之后清明的景象，有胸怀天下，渴望和平的寓意。"
+        },
+        {
+          "name": "月關",
+          "sex": "男女皆可",
+          "desc": "富有诗意，象征着对故土的思念和对未来的期许，也体现了时间的流逝和历史的变迁。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雲陽館與韓紳宿別",
+      "author": "司空曙",
+      "result": [
+        {
+          "name": "江海",
+          "sex": "男",
+          "desc": "胸怀宽广，有远大抱负"
+        },
+        {
+          "name": "明朝",
+          "sex": "男女皆可",
+          "desc": "光明，充满希望的未来"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "喜外弟盧綸見宿",
+      "author": "司空曙",
+      "result": [
+        {
+          "name": "夜雨",
+          "sex": "男",
+          "desc": "宁静致远，经历风雨"
+        },
+        {
+          "name": "黃葉",
+          "sex": "女",
+          "desc": "淡雅脱俗，别具韵味"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "聽彈琴",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "泠松",
+          "sex": "男",
+          "desc": "清冷挺拔，坚韧如松"
+        },
+        {
+          "name": "松寒",
+          "sex": "男女皆可",
+          "desc": "清幽淡雅，气质脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送方外上人",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "孤雲",
+          "sex": "男",
+          "desc": "孤傲脱俗，超然物外"
+        },
+        {
+          "name": "雲鹤",
+          "sex": "男女皆可",
+          "desc": "飘逸洒脱，高洁出尘"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送靈澈上人",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "竹林",
+          "sex": "男女皆可",
+          "desc": "象征着清幽脱俗，高雅淡泊，竹报平安"
+        },
+        {
+          "name": "荷笠",
+          "sex": "男",
+          "desc": "意境优美，带有诗意，象征着归隐田园的悠闲生活"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "新年作",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "乡春",
+          "sex": "男",
+          "desc": "象征着乡村的春天，充满生机与希望"
+        },
+        {
+          "name": "新归",
+          "sex": "男",
+          "desc": "寓意着新的开始和回归，积极向上"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秋日登吳公臺上寺遠眺寺即陳將吳明徹戰場",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "秋日",
+          "sex": "男女皆可",
+          "desc": "秋高气爽，积极向上，有诗意"
+        },
+        {
+          "name": "望乡",
+          "sex": "男女皆可",
+          "desc": "思念故乡，情感丰富，有内涵"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "尋南溪常山道人隱居",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "苔痕",
+          "sex": "男女皆可",
+          "desc": "体现了历经风雨，留下足迹的意境，寓意着坚韧与历练"
+        },
+        {
+          "name": "云草",
+          "sex": "女",
+          "desc": "白云和春草的组合，清新自然，象征着宁静与美好"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "餞別王十一南遊",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "望君",
+          "sex": "男女皆可",
+          "desc": "寄托希望，仰慕君子"
+        },
+        {
+          "name": "挥泪",
+          "sex": "女",
+          "desc": "情感丰富，富有同情心，但略显伤感，建议慎重考虑"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "江州重別薛六柳八二員外",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "承歌",
+          "sex": "男",
+          "desc": "承载着希望，歌颂美好未来，大气磅礴"
+        },
+        {
+          "name": "月落",
+          "sex": "女",
+          "desc": "意境优美，象征着一种宁静和成熟的美感"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "長沙過賈誼宅",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "楚客",
+          "sex": "男",
+          "desc": "气质独特，饱经沧桑，富有诗意"
+        },
+        {
+          "name": "寒林",
+          "sex": "男女皆可",
+          "desc": "清冷孤傲，坚韧不拔，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "自夏口至鸚鵡洲夕望岳陽寄源中丞",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "汀洲",
+          "sex": "男",
+          "desc": "诗句开头，意境开阔，有诗意，适合男性。"
+        },
+        {
+          "name": "秋水",
+          "sex": "女",
+          "desc": "描写的景色，秋水盈盈，意境优美，适合女性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "賦得",
+      "author": "劉長卿",
+      "result": [
+        {
+          "name": "鶯燕",
+          "sex": "女",
+          "desc": "轻盈灵动，活泼可爱，象征着春天的气息和美好的事物"
+        },
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "气质高雅，温柔娴静，寄托着对美好未来的向往"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "九日登望仙臺呈劉明府容",
+      "author": "崔曙",
+      "result": [
+        {
+          "name": "高臺",
+          "sex": "男",
+          "desc": "意指高尚的地位和远大的志向，大气磅礴"
+        },
+        {
+          "name": "曙開",
+          "sex": "男女皆可",
+          "desc": "象征着光明和希望，充满朝气"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "涼州詞二首 一",
+      "author": "王翰",
+      "result": [
+        {
+          "name": "酒杯",
+          "sex": "男",
+          "desc": "豪迈洒脱，成熟稳重"
+        },
+        {
+          "name": "夜光",
+          "sex": "女",
+          "desc": "神秘优雅，光彩照人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秋登蘭山寄張五",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "白雲",
+          "sex": "男女皆可",
+          "desc": "象征自由洒脱，气质飘逸脱俗"
+        },
+        {
+          "name": "怡悅",
+          "sex": "女",
+          "desc": "心情愉悦，乐观开朗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夏日南亭懷辛大",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "池月",
+          "sex": "女",
+          "desc": "清幽宁静，气质脱俗"
+        },
+        {
+          "name": "荷风",
+          "sex": "女",
+          "desc": "清香怡人，温柔淡雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宿業師山房期丁大不至",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "月凉",
+          "sex": "女",
+          "desc": "清幽雅致，气质脱俗"
+        },
+        {
+          "name": "松泉",
+          "sex": "男",
+          "desc": "清雅高洁，心境平和"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夜歸鹿門山歌",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "鐘渡",
+          "sex": "男",
+          "desc": "寓意着声名远播，前途光明"
+        },
+        {
+          "name": "鳴村",
+          "sex": "女",
+          "desc": "婉转动听，充满诗意，象征着乡村的宁静与美好"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "望洞庭湖贈張丞相",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "湖平",
+          "sex": "男女皆可",
+          "desc": "形容人性格平和，心境宁静，生活安逸"
+        },
+        {
+          "name": "涵虚",
+          "sex": "男女皆可",
+          "desc": "胸襟广阔，气质脱俗，有内涵"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秦中感秋寄遠上人",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "丘徑",
+          "sex": "男",
+          "desc": "隐逸之士，淡泊名利"
+        },
+        {
+          "name": "林師",
+          "sex": "男",
+          "desc": "尊师重道，胸怀大志"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宿桐廬江寄廣陵舊遊",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "江月",
+          "sex": "男女皆可",
+          "desc": "江水浩荡，明月清辉，意境优美，象征着清雅脱俗的气质和远大的抱负"
+        },
+        {
+          "name": "鸣叶",
+          "sex": "男女皆可",
+          "desc": "风鸣叶动，充满生机，象征着活力和蓬勃向上的力量"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "早寒江上有懷",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "雁南",
+          "sex": "女",
+          "desc": "寓意着自由，潇洒，气质高雅，有远大志向"
+        },
+        {
+          "name": "平海",
+          "sex": "男",
+          "desc": "寓意着心胸开阔，能够克服困难，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "留別王侍御維",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "朝朝",
+          "sex": "女",
+          "desc": "充满希望，积极乐观"
+        },
+        {
+          "name": "芳草",
+          "sex": "女",
+          "desc": "美好，充满生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "清明日宴梅道士房",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "林軒",
+          "sex": "男",
+          "desc": "有气势，大气磅礴"
+        },
+        {
+          "name": "物華",
+          "sex": "女",
+          "desc": "美好，兴盛繁荣"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "與諸子登峴山",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "人事",
+          "sex": "男女皆可",
+          "desc": "指社会人事代谢更替，象征着时间的流逝和生命的循环，寓意着人生的变迁和发展，名字有内涵，读来也朗朗上口"
+        },
+        {
+          "name": "胜临",
+          "sex": "男",
+          "desc": "取自“江山留胜迹，我辈复登临”，有“登高望远，成就一番事业”的寓意，适合有抱负的男性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "過故人莊",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "村合",
+          "sex": "男女皆可",
+          "desc": "体现了诗中田园风光，寓意生活和谐，充满希望"
+        },
+        {
+          "name": "郭斜",
+          "sex": "男",
+          "desc": "展现诗中意境，有几分洒脱不羁，但又蕴含着诗意与哲理"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "歲暮歸南山",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "南山",
+          "sex": "男",
+          "desc": "象征归隐田园，悠然自得，但也有志向未酬的隐忧。"
+        },
+        {
+          "name": "松月",
+          "sex": "男女皆可",
+          "desc": "意境清幽，宁静致远，象征高洁的品格。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "歲除夜有懷",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "三巴",
+          "sex": "男",
+          "desc": "象征着远大的志向和对未来的期许，读起来也比较大气"
+        },
+        {
+          "name": "残雪",
+          "sex": "女",
+          "desc": "虽然包含了“残”字，但却别有一番凄美感，更能体现出女性的坚韧和温柔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春曉",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "眠鳥",
+          "sex": "女",
+          "desc": "温柔可爱，活泼灵动"
+        },
+        {
+          "name": "曉風",
+          "sex": "男",
+          "desc": "清新脱俗，寓意豁达"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宿建德江",
+      "author": "孟浩然",
+      "result": [
+        {
+          "name": "泊月",
+          "sex": "男",
+          "desc": "宁静淡泊，气质高雅"
+        },
+        {
+          "name": "烟渚",
+          "sex": "女",
+          "desc": "朦胧秀美，温柔婉约"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "蜀道難",
+      "author": "李白",
+      "result": [
+        {
+          "name": "高标",
+          "sex": "男",
+          "desc": "比喻人品格高尚，目标远大"
+        },
+        {
+          "name": "雄飞",
+          "sex": "男",
+          "desc": "寓意雄心壮志，前程远大"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "將進酒",
+      "author": "李白",
+      "result": [
+        {
+          "name": "河水",
+          "sex": "男",
+          "desc": "源远流长，生生不息"
+        },
+        {
+          "name": "金樽",
+          "sex": "男女皆可",
+          "desc": "富贵吉祥，豪迈洒脱"
+        },
+        {
+          "name": "朝暮",
+          "sex": "女",
+          "desc": "时光流逝，珍惜当下"
+        },
+        {
+          "name": "醉酒",
+          "sex": "男",
+          "desc": "豪放不羁，乐观豁达"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春宮怨",
+      "author": "杜荀鶴",
+      "result": [
+        {
+          "name": "娟容",
+          "sex": "女",
+          "desc": "美丽端庄，温婉大方"
+        },
+        {
+          "name": "暖重",
+          "sex": "女",
+          "desc": "性格温暖，沉稳大气"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "客夜與故人偶集",
+      "author": "戴叔倫",
+      "result": [
+        {
+          "name": "秋月",
+          "sex": "女",
+          "desc": "美好，温柔，富有诗意"
+        },
+        {
+          "name": "夜重",
+          "sex": "男",
+          "desc": "沉稳，大气，有担当"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和張僕射塞下曲 一",
+      "author": "盧綸",
+      "result": [
+        {
+          "name": "翎燕",
+          "sex": "男",
+          "desc": "矫健有力，自由洒脱"
+        },
+        {
+          "name": "金弧",
+          "sex": "男",
+          "desc": "尊贵大气，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和張僕射塞下曲 二",
+      "author": "盧綸",
+      "result": [
+        {
+          "name": "林弓",
+          "sex": "男",
+          "desc": "隐喻拥有高超的技艺和坚韧的意志"
+        },
+        {
+          "name": "草羽",
+          "sex": "男",
+          "desc": "象征着自由和希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和張僕射塞下曲 三",
+      "author": "盧綸",
+      "result": [
+        {
+          "name": "雁飞",
+          "sex": "男",
+          "desc": "寓意雄心壮志，前程远大"
+        },
+        {
+          "name": "月黑",
+          "sex": "男女皆可",
+          "desc": "象征着经历黑暗，最终走向光明，有隐忍坚毅之意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和張僕射塞下曲 四",
+      "author": "盧綸",
+      "result": [
+        {
+          "name": "幕琼",
+          "sex": "女",
+          "desc": "高贵典雅，温婉如玉"
+        },
+        {
+          "name": "琼筵",
+          "sex": "女",
+          "desc": "富丽堂皇，美好盛宴"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "晚次鄂州",
+      "author": "盧綸",
+      "result": [
+        {
+          "name": "雲帆",
+          "sex": "男",
+          "desc": "象征着远大的理想和不畏艰难的进取精神，有气势，顺口"
+        },
+        {
+          "name": "秋月",
+          "sex": "女",
+          "desc": "意境优美，象征着美好的品格和思念故乡的深情，音律和谐"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "李端公",
+      "author": "盧綸",
+      "result": [
+        {
+          "name": "关人",
+          "sex": "男",
+          "desc": "关怀他人，有担当"
+        },
+        {
+          "name": "寒归",
+          "sex": "男女皆可",
+          "desc": "气质清冷，归隐田园"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "過香積寺",
+      "author": "王維",
+      "result": [
+        {
+          "name": "香积",
+          "sex": "女",
+          "desc": "香气弥漫，积淀深厚，富有诗意和文化底蕴，寓意美好"
+        },
+        {
+          "name": "云峰",
+          "sex": "男女皆可",
+          "desc": "意境高远，气势磅礴，象征着理想和抱负"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "山居秋暝",
+      "author": "王維",
+      "result": [
+        {
+          "name": "秋月",
+          "sex": "女",
+          "desc": "秋高气爽，温柔娴静，如明月般皎洁"
+        },
+        {
+          "name": "石流",
+          "sex": "男",
+          "desc": "坚毅挺拔，如山石般稳重，如流水般流畅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "終南別業",
+      "author": "王維",
+      "result": [
+        {
+          "name": "兴家",
+          "sex": "男",
+          "desc": "兴旺发达，安居乐业"
+        },
+        {
+          "name": "水穷",
+          "sex": "男",
+          "desc": "豁达，不落俗套"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "歸嵩山作",
+      "author": "王維",
+      "result": [
+        {
+          "name": "川马",
+          "sex": "男",
+          "desc": "“川”指河流，象征着平稳与流畅；“马”象征着奔腾与活力，两者结合寓意着人生旅程稳中带动，充满活力。"
+        },
+        {
+          "name": "流水",
+          "sex": "女",
+          "desc": "“流水”意境优美，象征着生命之源，也象征着女性的温柔与灵动。名字读起来也十分流畅自然。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "終南山",
+      "author": "王維",
+      "result": [
+        {
+          "name": "天都",
+          "sex": "男",
+          "desc": "意指天帝居住的地方，大气磅礴，适合男孩名字"
+        },
+        {
+          "name": "白雲",
+          "sex": "女",
+          "desc": "意境优美，轻盈飘逸，适合女孩名字"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "漢江臨汎",
+      "author": "王維",
+      "result": [
+        {
+          "name": "江山",
+          "sex": "男女皆可",
+          "desc": "江河之壮阔，山岳之雄伟，寓意着胸怀宽广，气魄雄伟"
+        },
+        {
+          "name": "流翁",
+          "sex": "男",
+          "desc": "江水长流，悠然自得，寓意着潇洒自在，超凡脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "奉和聖製從蓬萊向興慶閣道中留春雨中春望之作應制",
+      "author": "王維",
+      "result": [
+        {
+          "name": "渭黄",
+          "sex": "男",
+          "desc": "取诗句首字，寓意为胸怀宽广，气度不凡"
+        },
+        {
+          "name": "宫花",
+          "sex": "女",
+          "desc": "取自诗句中的连续两字，宫廷华丽，花开富贵，寓意美好吉祥"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和賈舍人早朝大明宮之作",
+      "author": "王維",
+      "result": [
+        {
+          "name": "雞人",
+          "sex": "男",
+          "desc": "象征着勤勉，以及皇家的威严和尊贵，名字比较有气势"
+        },
+        {
+          "name": "曉籌",
+          "sex": "男",
+          "desc": "象征着把握时间，积极进取，但略显成熟稳重"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "酬郭給事",
+      "author": "王維",
+      "result": [
+        {
+          "name": "洞桃",
+          "sex": "女",
+          "desc": "洞开桃源，美丽温柔"
+        },
+        {
+          "name": "高柳",
+          "sex": "男女皆可",
+          "desc": "高风亮节，婀娜多姿"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "積雨輞川莊作",
+      "author": "王維",
+      "result": [
+        {
+          "name": "空林",
+          "sex": "男",
+          "desc": "意境深远，清幽脱俗"
+        },
+        {
+          "name": "夏木",
+          "sex": "女",
+          "desc": "充满生机，青春活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "輞川集 鹿柴",
+      "author": "王維",
+      "result": [
+        {
+          "name": "山人",
+          "sex": "男",
+          "desc": "隐逸脱俗，超然物外"
+        },
+        {
+          "name": "人林",
+          "sex": "男女皆可",
+          "desc": "自然清新，充满生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "輞川集 竹里館",
+      "author": "王維",
+      "result": [
+        {
+          "name": "幽篁",
+          "sex": "女",
+          "desc": "气质高雅，清幽脱俗"
+        },
+        {
+          "name": "明月",
+          "sex": "男女皆可",
+          "desc": "光明磊落，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送別",
+      "author": "王維",
+      "result": [
+        {
+          "name": "山春",
+          "sex": "男女皆可",
+          "desc": "生机勃勃，充满希望"
+        },
+        {
+          "name": "送绿",
+          "sex": "女",
+          "desc": "温柔娴静，充满生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜詩三首 二",
+      "author": "王維",
+      "result": [
+        {
+          "name": "乡事",
+          "sex": "男",
+          "desc": "饱含家国情怀，经历丰富"
+        },
+        {
+          "name": "梅窗",
+          "sex": "女",
+          "desc": "清秀雅致，气质脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相思",
+      "author": "王維",
+      "result": [
+        {
+          "name": "红豆",
+          "sex": "女",
+          "desc": "象征爱情忠贞，美丽动人"
+        },
+        {
+          "name": "秋枝",
+          "sex": "女",
+          "desc": "秋意盎然，富有诗意，婉约可人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "九月九日憶山東兄弟",
+      "author": "王維",
+      "result": [
+        {
+          "name": "异客",
+          "sex": "男",
+          "desc": "经历丰富，独具一格"
+        },
+        {
+          "name": "佳节",
+          "sex": "女",
+          "desc": "美好，喜庆，充满节日氛围"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "渭城曲",
+      "author": "王維",
+      "result": [
+        {
+          "name": "朝雨",
+          "sex": "女",
+          "desc": "清新脱俗，富有诗意"
+        },
+        {
+          "name": "陽關",
+          "sex": "男",
+          "desc": "壮阔大气，前程似锦"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "崔九欲往南山馬上口號與別",
+      "author": "裴迪",
+      "result": [
+        {
+          "name": "山深",
+          "sex": "男",
+          "desc": "形容人性格深沉稳重，有内涵，富有山一样厚重踏实的品质"
+        },
+        {
+          "name": "丘壑",
+          "sex": "男",
+          "desc": "胸怀广阔，富有理想，才华横溢"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "尋西山隱者不遇",
+      "author": "丘爲",
+      "result": [
+        {
+          "name": "茅茨",
+          "sex": "男",
+          "desc": "茅屋象征质朴，茨象征生长，寓意生活简朴，富有生机"
+        },
+        {
+          "name": "秋水",
+          "sex": "男女皆可",
+          "desc": "秋水寓意宁静致远，心境澄澈，象征淡泊名利"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "黃鶴樓",
+      "author": "崔顥",
+      "result": [
+        {
+          "name": "白云",
+          "sex": "女",
+          "desc": "轻盈飘逸，纯洁美好"
+        },
+        {
+          "name": "川草",
+          "sex": "女",
+          "desc": "清新自然，充满生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "行經華陰",
+      "author": "崔顥",
+      "result": [
+        {
+          "name": "华峰",
+          "sex": "男",
+          "desc": "巍峨挺拔，意境高远"
+        },
+        {
+          "name": "帝雨",
+          "sex": "男女皆可",
+          "desc": "祥瑞之兆，润泽万物"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "長干曲四首 一",
+      "author": "崔顥",
+      "result": [
+        {
+          "name": "君妾",
+          "sex": "女",
+          "desc": "体现诗词中男女主人公的爱情，婉约动人"
+        },
+        {
+          "name": "横塘",
+          "sex": "女",
+          "desc": "地名入名，诗意盎然，有江南水乡的温婉气质"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "長干曲四首 二",
+      "author": "崔顥",
+      "result": [
+        {
+          "name": "江水",
+          "sex": "女",
+          "desc": "秀美温柔，与水般柔情"
+        },
+        {
+          "name": "九江",
+          "sex": "男女皆可",
+          "desc": "气势磅礴，胸襟广阔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "望薊門",
+      "author": "祖詠",
+      "result": [
+        {
+          "name": "燕歌",
+          "sex": "男",
+          "desc": "燕赵歌声，豪迈大气"
+        },
+        {
+          "name": "曙色",
+          "sex": "男女皆可",
+          "desc": "象征光明和希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "終南望餘雪",
+      "author": "祖詠",
+      "result": [
+        {
+          "name": "阴岭",
+          "sex": "男",
+          "desc": "形容人高深莫测，胸怀广阔"
+        },
+        {
+          "name": "林寒",
+          "sex": "男",
+          "desc": "展现出一种清冷孤傲，却又坚韧不拔的气质"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "古從軍行",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "日暮",
+          "sex": "男",
+          "desc": "有诗意，象征着一天的结束和希望的开始，也暗含着一种坚毅和沉稳"
+        },
+        {
+          "name": "公主",
+          "sex": "女",
+          "desc": "源于诗中意象，大气优雅，适合女性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "琴歌",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "酒客",
+          "sex": "男",
+          "desc": "豪迈洒脱，热情好客"
+        },
+        {
+          "name": "月霜",
+          "sex": "女",
+          "desc": "气质清冷，冰雪聪明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送陳章甫",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "南風",
+          "sex": "男",
+          "desc": "象征着温暖和煦，充满希望与活力"
+        },
+        {
+          "name": "麥黃",
+          "sex": "女",
+          "desc": "麦浪翻滚，象征着丰收和富足，名字颜色感强，适合女性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "聽安萬善吹觱篥歌",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "竹篥",
+          "sex": "男",
+          "desc": "有才情，有担当"
+        },
+        {
+          "name": "流春",
+          "sex": "女",
+          "desc": "温柔婉转，青春靓丽"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "古意",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "少客",
+          "sex": "男",
+          "desc": "少有抱负，四处漂泊，最终有所成就"
+        },
+        {
+          "name": "白雪",
+          "sex": "女",
+          "desc": "纯洁美好，气质高雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "聽董大彈胡笳聲兼寄語弄房給事",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "蔡女",
+          "sex": "女",
+          "desc": "源于诗题，典雅有气质，适合女性"
+        },
+        {
+          "name": "商羽",
+          "sex": "女",
+          "desc": "出自“先拂商弦後角羽”，音律和谐，有艺术气息，适合女性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送魏萬之京",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "遊子",
+          "sex": "男",
+          "desc": "富有闯劲，追求远方"
+        },
+        {
+          "name": "霜河",
+          "sex": "男女皆可",
+          "desc": "气质清冷，坚韧不拔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春泛若耶溪",
+      "author": "綦毋潛",
+      "result": [
+        {
+          "name": "幽意",
+          "sex": "女",
+          "desc": "气质高雅，心怀幽情"
+        },
+        {
+          "name": "林月",
+          "sex": "女",
+          "desc": "清丽脱俗，温柔娴静"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "塞下曲四首 一",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "桑林",
+          "sex": "男",
+          "desc": "富有生机，充满活力"
+        },
+        {
+          "name": "关寒",
+          "sex": "男",
+          "desc": "沉稳内敛，坚毅果敢"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "塞下曲四首 二",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "秋水",
+          "sex": "女",
+          "desc": "气质清秀，温婉动人，富有诗意"
+        },
+        {
+          "name": "平沙",
+          "sex": "男女皆可",
+          "desc": "胸襟开阔，坦荡磊落，不落俗套"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "同從弟銷南齋玩月憶山陰崔少府",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "高臥",
+          "sex": "男",
+          "desc": "意指超然物外，胸襟开阔，具有高尚的品格和修养"
+        },
+        {
+          "name": "清輝",
+          "sex": "女",
+          "desc": "清澈的光辉，象征着纯洁、美好和明亮的前途"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "出塞二首 一",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "美好的月光，象征纯洁、温柔和永恒"
+        },
+        {
+          "name": "龙城",
+          "sex": "男",
+          "desc": "大气磅礴，象征着坚毅、勇敢和守护"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春宮曲",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "風月",
+          "sex": "女",
+          "desc": "高雅脱俗，浪漫温柔"
+        },
+        {
+          "name": "桃月",
+          "sex": "女",
+          "desc": "美好，温柔，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "閨怨",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "春日",
+          "sex": "女",
+          "desc": "象征着美好的春天和青春活力，寓意着积极向上，充满希望"
+        },
+        {
+          "name": "凝妝",
+          "sex": "女",
+          "desc": "虽然字面指女子精心打扮，但引申为精心细致，一丝不苟，也寓意着一种美丽和精致"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "芙蓉樓送辛漸二首 一",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "寒雨",
+          "sex": "女",
+          "desc": "气质清冷，富有诗意"
+        },
+        {
+          "name": "冰心",
+          "sex": "女",
+          "desc": "纯洁高洁，心地善良"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宿王昌齡隱居",
+      "author": "常建",
+      "result": [
+        {
+          "name": "清溪",
+          "sex": "男女皆可",
+          "desc": "象征着清澈透明，溪流般悠长绵延，寓意生活纯净，未来光明"
+        },
+        {
+          "name": "孤雲",
+          "sex": "男女皆可",
+          "desc": "孤傲脱俗，自由自在，象征着超凡脱俗的气质和洒脱的人生态度"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "清平調 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "衣裳",
+          "sex": "女",
+          "desc": "美丽典雅，富贵荣华"
+        },
+        {
+          "name": "花容",
+          "sex": "女",
+          "desc": "容貌姣好，美丽动人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "清平調 二",
+      "author": "李白",
+      "result": [
+        {
+          "name": "紅豔",
+          "sex": "女",
+          "desc": "颜色鲜艳，美丽动人，象征着青春活力和美好"
+        },
+        {
+          "name": "豔妝",
+          "sex": "女",
+          "desc": "妆容艳丽，美丽迷人，也象征着女性的魅力和自信"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "清平調 三",
+      "author": "李白",
+      "result": [
+        {
+          "name": "倾国",
+          "sex": "女",
+          "desc": "形容女子美丽，倾国倾城"
+        },
+        {
+          "name": "君王",
+          "sex": "男",
+          "desc": "尊贵，霸气，王者风范"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "還鄉偶書  其二",
+      "author": "黄拱",
+      "result": [
+        {
+          "name": "少小",
+          "sex": "男",
+          "desc": "经历丰富，阅历深厚"
+        },
+        {
+          "name": "老大",
+          "sex": "男",
+          "desc": "成熟稳重，经验丰富"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "長恨歌",
+      "author": "白居易",
+      "result": [
+        {
+          "name": "丽质",
+          "sex": "女",
+          "desc": "形容女子美丽出众，气质高雅"
+        },
+        {
+          "name": "华清",
+          "sex": "女",
+          "desc": "源于诗中华清池，富贵吉祥，温婉动人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "琵琶引",
+      "author": "白居易",
+      "result": {
+        "names": [
+          {
+            "name": "江月",
+            "sex": "男女皆可",
+            "desc": "江水浩渺，月色朦胧，象征着深沉的感情和无限的希望。"
+          },
+          {
+            "name": "琵琶",
+            "sex": "女",
+            "desc": "乐器名，象征着才情和艺术，也代表着女性的独立和坚强。"
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "title": "賦得古原草送別",
+      "author": "白居易",
+      "result": [
+        {
+          "name": "春生",
+          "sex": "男女皆可",
+          "desc": "生机勃勃，充满希望"
+        },
+        {
+          "name": "芳城",
+          "sex": "女",
+          "desc": "美丽富饶，繁华似锦"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "自河南經亂關內阻饑兄弟離散各在一處因望月有感聊書所懷寄上浮梁大兄於潛七兄烏江十五兄兼示符離及下邽弟妹",
+      "author": "白居易",
+      "result": [
+        {
+          "name": "年饑",
+          "sex": "男",
+          "desc": "寓意着饱经沧桑后获得的成熟和智慧"
+        },
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "温柔、宁静、美好的象征"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "問劉十九",
+      "author": "白居易",
+      "result": [
+        {
+          "name": "绿泥",
+          "sex": "女",
+          "desc": "颜色清新雅致，有泥土的芬芳，象征着生命力与活力"
+        },
+        {
+          "name": "红雪",
+          "sex": "女",
+          "desc": "颜色对比强烈，象征着热情与纯洁，预示着未来充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "尋隱者不遇",
+      "author": "賈島",
+      "result": [
+        {
+          "name": "松云",
+          "sex": "男",
+          "desc": "气质清幽，超凡脱俗"
+        },
+        {
+          "name": "童深",
+          "sex": "男",
+          "desc": "天真烂漫，蕴藏潜力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "利州南渡",
+      "author": "溫庭筠",
+      "result": [
+        {
+          "name": "空翠",
+          "sex": "女",
+          "desc": "空灵秀美，翠色欲滴，形容女子气质脱俗，美丽动人"
+        },
+        {
+          "name": "水柳",
+          "sex": "女",
+          "desc": "温柔婉约，婀娜多姿，体现女性的柔美与灵动"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "瑤瑟怨",
+      "author": "溫庭筠",
+      "result": [
+        {
+          "name": "冰天",
+          "sex": "男",
+          "desc": "形容人品格高洁，胸襟广阔，像冰一样纯净，像天一样广阔"
+        },
+        {
+          "name": "月明",
+          "sex": "女",
+          "desc": "象征着光明磊落，前途光明，像月亮一样皎洁，像夜晚一样宁静"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送人東遊",
+      "author": "溫庭筠",
+      "result": [
+        {
+          "name": "高风",
+          "sex": "男",
+          "desc": "品格高尚，气度不凡"
+        },
+        {
+          "name": "初日",
+          "sex": "男女皆可",
+          "desc": "象征着新的开始，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "蘇武廟",
+      "author": "溫庭筠",
+      "result": [
+        {
+          "name": "武魂",
+          "sex": "男",
+          "desc": "刚毅果敢，精神抖擞"
+        },
+        {
+          "name": "高树",
+          "sex": "男女皆可",
+          "desc": "高瞻远瞩，稳重挺拔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "渡漢江",
+      "author": "李頻",
+      "result": [
+        {
+          "name": "音春",
+          "sex": "女",
+          "desc": "充满生机，青春活泼"
+        },
+        {
+          "name": "近人",
+          "sex": "男女皆可",
+          "desc": "平易近人，乐于助人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "貧女",
+      "author": "秦韜玉",
+      "result": [
+        {
+          "name": "蓬門",
+          "sex": "女",
+          "desc": "质朴淡雅，与世无争"
+        },
+        {
+          "name": "綺羅",
+          "sex": "女",
+          "desc": "富贵华丽，精致典雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春宮怨",
+      "author": "周朴",
+      "result": [
+        {
+          "name": "娟容",
+          "sex": "女",
+          "desc": "美丽端庄，温婉大方"
+        },
+        {
+          "name": "暖重",
+          "sex": "女",
+          "desc": "温暖厚重，性格沉稳"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "孤鴈 二",
+      "author": "崔塗",
+      "result": [
+        {
+          "name": "歸片",
+          "sex": "男",
+          "desc": "具有回归本心，独具一格的意境，简洁有力"
+        },
+        {
+          "name": "寒塘",
+          "sex": "女",
+          "desc": "清冷脱俗，气质独特，意境深远"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "巴山道中除夜書懷",
+      "author": "崔塗",
+      "result": [
+        {
+          "name": "乱山",
+          "sex": "男",
+          "desc": "形容人性格刚毅，富有男子气概"
+        },
+        {
+          "name": "异乡",
+          "sex": "男女皆可",
+          "desc": "寓意阅历丰富，胸怀宽广"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宮詞二首 一",
+      "author": "張祜",
+      "result": [
+        {
+          "name": "國宮",
+          "sex": "女",
+          "desc": "女子气质高贵典雅，有大家闺秀的风范"
+        },
+        {
+          "name": "河子",
+          "sex": "男",
+          "desc": "名字简洁，寓意深刻，有男子汉大丈夫的气概"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "贈內人",
+      "author": "張祜",
+      "result": [
+        {
+          "name": "宫燕",
+          "sex": "女",
+          "desc": "高贵典雅，温柔善良"
+        },
+        {
+          "name": "月蛾",
+          "sex": "女",
+          "desc": "清丽脱俗，富有同情心"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "集靈臺二首 一",
+      "author": "張祜",
+      "result": [
+        {
+          "name": "日红",
+          "sex": "女",
+          "desc": "朝气蓬勃，热情似火"
+        },
+        {
+          "name": "灵台",
+          "sex": "男女皆可",
+          "desc": "灵秀聪慧，气度不凡"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "集靈臺二首 二",
+      "author": "張祜",
+      "result": [
+        {
+          "name": "平明",
+          "sex": "女",
+          "desc": "名字简洁明了，有清新脱俗之感，象征着女子早晨的朝气蓬勃"
+        },
+        {
+          "name": "朝尊",
+          "sex": "男",
+          "desc": "体现了朝气和尊贵，寓意着前途光明，地位显赫"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "題金陵渡",
+      "author": "張祜",
+      "result": [
+        {
+          "name": "津渡",
+          "sex": "男",
+          "desc": "寓意着到达目的地，前途光明"
+        },
+        {
+          "name": "小山",
+          "sex": "男女皆可",
+          "desc": "意境清新，气质脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宮詞",
+      "author": "朱慶餘",
+      "result": [
+        {
+          "name": "美人",
+          "sex": "女",
+          "desc": "美丽，气质高雅"
+        },
+        {
+          "name": "花時",
+          "sex": "女",
+          "desc": "美好的季节，青春活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "石鼓歌",
+      "author": "韓愈",
+      "result": [
+        {
+          "name": "明堂",
+          "sex": "男",
+          "desc": "光明磊落，气宇轩昂"
+        },
+        {
+          "name": "俊逸",
+          "sex": "男",
+          "desc": "俊朗不凡，潇洒飘逸"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秋夜曲",
+      "author": "王涯",
+      "result": [
+        {
+          "name": "魄微",
+          "sex": "女",
+          "desc": "气质优雅，温柔细腻"
+        },
+        {
+          "name": "羅衣",
+          "sex": "女",
+          "desc": "华贵典雅，美丽动人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "晨詣超師院讀禪經",
+      "author": "柳宗元",
+      "result": [
+        {
+          "name": "清心",
+          "sex": "女",
+          "desc": "心境清澈，淡泊名利"
+        },
+        {
+          "name": "松竹",
+          "sex": "男女皆可",
+          "desc": "气节高尚，品格坚韧"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登柳州城樓寄漳汀封連四州",
+      "author": "柳宗元",
+      "result": [
+        {
+          "name": "海天",
+          "sex": "男",
+          "desc": "胸襟开阔，心怀天下"
+        },
+        {
+          "name": "高樓",
+          "sex": "男",
+          "desc": "气宇轩昂，卓尔不群"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "溪居",
+      "author": "柳宗元",
+      "result": [
+        {
+          "name": "农圃",
+          "sex": "男",
+          "desc": "体现了诗人闲适淡泊的田园生活，寓意生活安逸，与世无争"
+        },
+        {
+          "name": "耕石",
+          "sex": "男",
+          "desc": "展现了诗人辛勤劳作的场景，寓意勤劳踏实，坚韧不拔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "江雪",
+      "author": "柳宗元",
+      "result": [
+        {
+          "name": "鳥絕",
+          "sex": "男",
+          "desc": "孤傲独立，卓尔不群"
+        },
+        {
+          "name": "舟翁",
+          "sex": "男",
+          "desc": "淡泊名利，悠然自得"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "漁翁",
+      "author": "柳宗元",
+      "result": [
+        {
+          "name": "西巖",
+          "sex": "男",
+          "desc": "意境深远，稳重可靠"
+        },
+        {
+          "name": "湘竹",
+          "sex": "女",
+          "desc": "清新脱俗，秀丽多姿"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "蜀先主廟",
+      "author": "劉禹錫",
+      "result": [
+        {
+          "name": "英雄",
+          "sex": "男",
+          "desc": "气概非凡，英勇无畏"
+        },
+        {
+          "name": "尚凜",
+          "sex": "男",
+          "desc": "高尚威严，令人敬畏"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "月夜",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "月闺",
+          "sex": "女",
+          "desc": "温柔婉约，思念家乡"
+        },
+        {
+          "name": "闺照",
+          "sex": "女",
+          "desc": "美丽动人，温暖人心"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春望",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "山河",
+          "sex": "男",
+          "desc": "象征着国家和民族的兴盛，大气磅礴"
+        },
+        {
+          "name": "城春",
+          "sex": "女",
+          "desc": "城池春天，生机勃勃，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春宿左省",
+      "author": "杜甫",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-flash\",\"location\":\"global\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"53s\"}]",
+      "success": false
+    },
+    {
+      "title": "至德二載甫自京金光門出問道歸鳳翔乾元初從左拾遺移華州掾與親故別因出此門有悲往事",
+      "author": "杜甫",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-flash\",\"location\":\"global\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"53s\"}]",
+      "success": false
+    },
+    {
+      "title": "月夜憶舍弟",
+      "author": "杜甫",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-flash\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"52s\"}]",
+      "success": false
+    },
+    {
+      "title": "天末憶李白",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "凉风",
+          "sex": "男",
+          "desc": "心怀旷达，气度不凡"
+        },
+        {
+          "name": "君子",
+          "sex": "男",
+          "desc": "品德高尚，温润如玉"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "蜀相",
+      "author": "杜甫",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-flash\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"52s\"}]",
+      "success": false
+    },
+    {
+      "title": "客至",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "春水",
+          "sex": "女",
+          "desc": "清新自然，充满生机"
+        },
+        {
+          "name": "鸥日",
+          "sex": "男",
+          "desc": "自由洒脱，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "野望",
+      "author": "杜甫",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-flash\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"51s\"}]",
+      "success": false
+    },
+    {
+      "title": "奉濟驛重送嚴公四韻",
+      "author": "杜甫",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-flash\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"51s\"}]",
+      "success": false
+    },
+    {
+      "title": "聞官軍收河南河北",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "初聞",
+          "sex": "男",
+          "desc": "富有诗意，寓意初次听到好消息而喜悦"
+        },
+        {
+          "name": "放歌",
+          "sex": "男",
+          "desc": "豪迈洒脱，乐观向上"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登高",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "天高",
+          "sex": "男",
+          "desc": "寓意胸襟广阔，视野开阔，前途光明"
+        },
+        {
+          "name": "沙白",
+          "sex": "女",
+          "desc": "象征纯洁，优雅，气质脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "別房太尉墓",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "乡近",
+          "sex": "男",
+          "desc": "体现了羁旅漂泊的经历，有沧桑感，但同时也暗示着对故乡的思念和对未来的期许。"
+        },
+        {
+          "name": "傅君",
+          "sex": "男",
+          "desc": "源于诗句中的人物，谢傅和徐君都是才德兼备之人，此名寓意才高八斗，有君子之风。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登樓",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "锦江",
+          "sex": "女",
+          "desc": "锦绣前程，温柔如水"
+        },
+        {
+          "name": "玉垒",
+          "sex": "男",
+          "desc": "坚强稳固，高瞻远瞩"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宿府",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "秋月",
+          "sex": "女",
+          "desc": "秋高气爽，温柔恬静，寄托着对美好未来的期许"
+        },
+        {
+          "name": "月安",
+          "sex": "女",
+          "desc": "安详宁静，温柔贤淑，象征着平安和幸福"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "旅夜書懷",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "微風",
+          "sex": "女",
+          "desc": "名字清新自然，有温柔之感，象征着女子温柔娴静的性格。"
+        },
+        {
+          "name": "星月",
+          "sex": "男女皆可",
+          "desc": "星月交辉，意境优美，象征着光明和希望。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "閣夜",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "霜雪",
+          "sex": "女",
+          "desc": "气质清冷，高洁脱俗"
+        },
+        {
+          "name": "星河",
+          "sex": "男女皆可",
+          "desc": "胸怀广阔，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "八陣圖",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "功名",
+          "sex": "男",
+          "desc": "成就显著，名扬四海"
+        },
+        {
+          "name": "盖世",
+          "sex": "男",
+          "desc": "才能超群，名震天下"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "詠懷古跡五首 一",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "楼臺",
+          "sex": "女",
+          "desc": "高雅脱俗，气势恢宏"
+        },
+        {
+          "name": "雲山",
+          "sex": "男女皆可",
+          "desc": "气质飘逸，潇洒自由"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "詠懷古跡五首 二",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "宋玉",
+          "sex": "男",
+          "desc": "纪念宋玉，才华横溢，风流儒雅"
+        },
+        {
+          "name": "風流",
+          "sex": "男",
+          "desc": "潇洒倜傥，才华横溢"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "詠懷古跡五首 三",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "山明",
+          "sex": "男女皆可",
+          "desc": "象征光明磊落，前途光明"
+        },
+        {
+          "name": "明妃",
+          "sex": "女",
+          "desc": "虽带着一丝忧愁，但更体现出女性的坚韧与美丽"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "詠懷古跡五首 四",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "蜀主",
+          "sex": "男",
+          "desc": "拥有王者之气，胸怀大志"
+        },
+        {
+          "name": "永安",
+          "sex": "男女皆可",
+          "desc": "寓意平安长久，安定祥和"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "詠懷古跡五首 五",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "大名",
+          "sex": "男",
+          "desc": "名字大气，寓意名扬天下"
+        },
+        {
+          "name": "清高",
+          "sex": "男",
+          "desc": "气质高洁，志向高远"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "江南逢李龜年",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "王前",
+          "sex": "男",
+          "desc": "尊贵，有前途"
+        },
+        {
+          "name": "江南",
+          "sex": "男女皆可",
+          "desc": "景色秀丽，美好，有江南才子的典雅意境"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登岳陽樓",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "洞庭",
+          "sex": "男女皆可",
+          "desc": "源于诗句首字，意境开阔，具有山水之美，寓意胸襟广阔，心怀坦荡"
+        },
+        {
+          "name": "岳陽",
+          "sex": "男女皆可",
+          "desc": "源于诗句第二句的词语，地名本身具有文化底蕴，寓意气势恢宏，才华横溢"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "虢國夫人",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "平明",
+          "sex": "男",
+          "desc": "有坦荡光明之感，象征着光明磊落"
+        },
+        {
+          "name": "上朝",
+          "sex": "男",
+          "desc": "有朝气蓬勃，步步高升之意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "望月懷遠",
+      "author": "張九齡",
+      "result": [
+        {
+          "name": "月涯",
+          "sex": "女",
+          "desc": "名字取自诗句首尾字，意境优美，有思念、相守之意，适合温柔恬静的女性。"
+        },
+        {
+          "name": "光期",
+          "sex": "男女皆可",
+          "desc": "名字取自诗句中，意指光明和希望，象征美好的未来和期许。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "題大庾嶺北驛",
+      "author": "宋之問",
+      "result": [
+        {
+          "name": "南雁",
+          "sex": "男",
+          "desc": "象征着自由和远方，有志向，但略带孤寂"
+        },
+        {
+          "name": "月梅",
+          "sex": "女",
+          "desc": "美好的意境，象征着高洁和希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "渡漢江",
+      "author": "宋之問",
+      "result": [
+        {
+          "name": "音春",
+          "sex": "女",
+          "desc": "蕴含着生机勃勃，充满希望的寓意"
+        },
+        {
+          "name": "近人",
+          "sex": "男女皆可",
+          "desc": "平易近人，乐于助人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "新年作",
+      "author": "宋之問",
+      "result": [
+        {
+          "name": "乡柳",
+          "sex": "女",
+          "desc": "富有诗意，柳树婀娜多姿，象征温柔与美好"
+        },
+        {
+          "name": "春归",
+          "sex": "男女皆可",
+          "desc": "春天归来，象征着希望和新生，寓意积极向上"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "杜少府之任蜀州",
+      "author": "王勃",
+      "result": [
+        {
+          "name": "風煙",
+          "sex": "男",
+          "desc": "意境深远，气质洒脱"
+        },
+        {
+          "name": "知己",
+          "sex": "男女皆可",
+          "desc": "友谊长存，彼此珍惜"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和晉陵陸丞早春遊望",
+      "author": "杜審言",
+      "result": [
+        {
+          "name": "霞春",
+          "sex": "女",
+          "desc": "朝气蓬勃，充满生机"
+        },
+        {
+          "name": "梅柳",
+          "sex": "女",
+          "desc": "温柔婉约，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登樓",
+      "author": "朱斌",
+      "result": [
+        {
+          "name": "日黄",
+          "sex": "男",
+          "desc": "象征光明和富贵，大气磅礴"
+        },
+        {
+          "name": "层楼",
+          "sex": "男女皆可",
+          "desc": "意指不断向上，追求卓越，前程似锦"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送李少府貶峽中王少府貶長沙",
+      "author": "高適",
+      "result": [
+        {
+          "name": "別雁",
+          "sex": "男",
+          "desc": "“別”字有分别之意，也指杰出、优秀；“雁”字象征着对家乡的思念与归属，也代表着高洁、远大的志向。名字整体音律和谐，寓意积极向上，适合男性。"
+        },
+        {
+          "name": "秋遠",
+          "sex": "女",
+          "desc": "“秋”字指秋天，有成熟、丰收之意，也代表着一种宁静与美丽；“遠”字指遥远，象征着对未来的期许和对远方的向往。名字整体比较柔和，寓意美好，适合女性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "望嶽",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "宗秀",
+          "sex": "男",
+          "desc": "顶天立地，秀拔出众"
+        },
+        {
+          "name": "凌頂",
+          "sex": "男",
+          "desc": "志存高远，傲视群雄"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "兵車行",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "行人",
+          "sex": "男",
+          "desc": "指旅途中的行人，象征着坚毅和远行，有积极向上的进取精神"
+        },
+        {
+          "name": "萧萧",
+          "sex": "女",
+          "desc": "形容马嘶声，也指风声，名字听起来轻柔，有空灵飘逸的美感，但略显伤感"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "贈衛八處士",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "人生",
+          "sex": "男女皆可",
+          "desc": "寓意人生的哲理，积极向上，包含着对人生的感悟和追求。"
+        },
+        {
+          "name": "參與",
+          "sex": "男",
+          "desc": "源于诗句中的“動如參與商”，指参与其中，积极进取，适合有担当的男性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "麗人行",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "水精",
+          "sex": "女",
+          "desc": "形容女子气质清秀，纯净剔透"
+        },
+        {
+          "name": "暮春",
+          "sex": "女",
+          "desc": "象征着女子青春美好，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "哀江頭",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "少陵",
+          "sex": "男",
+          "desc": "源于诗句首字，少陵是杜甫的别号，体现一种沧桑感和深沉的诗人气质，适合成熟稳重的男性。"
+        },
+        {
+          "name": "江花",
+          "sex": "女",
+          "desc": "取自诗句中的意象，江水和江花，象征着生命的活力和美丽，适合温柔美丽的女性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "哀王孫",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "长安",
+          "sex": "男",
+          "desc": "大气磅礴，象征着盛世和希望"
+        },
+        {
+          "name": "白屋",
+          "sex": "女",
+          "desc": "纯洁美好，象征着平安和舒适"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "佳人",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "佳人",
+          "sex": "女",
+          "desc": "形容女子美好，气质出众"
+        },
+        {
+          "name": "空谷",
+          "sex": "女",
+          "desc": "清幽脱俗，气质淡雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夢李白二首 一",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "生别",
+          "sex": "女",
+          "desc": "体现了对离别场景的细腻情感，名字有独特韵味，适合女性。"
+        },
+        {
+          "name": "长忆",
+          "sex": "女",
+          "desc": "表达对故人的思念，名字温柔婉转，适合女性。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夢李白二首 二",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "浮雲",
+          "sex": "男",
+          "desc": "潇洒飘逸，气质超然"
+        },
+        {
+          "name": "遊志",
+          "sex": "男",
+          "desc": "志向远大，积极进取"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "韋諷錄事宅觀曹將軍畫馬圖",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "神妙",
+          "sex": "男",
+          "desc": "形容才华横溢，技艺高超，名字寓意非凡，令人印象深刻"
+        },
+        {
+          "name": "乘黄",
+          "sex": "男",
+          "desc": "传说中一种神骏的黄马，象征着高贵、非凡和卓越的才能"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "丹青引贈曹將軍霸",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "武子",
+          "sex": "男",
+          "desc": "有胆识，有担当，取自诗句首字，大气磅礴"
+        },
+        {
+          "name": "承恩",
+          "sex": "男",
+          "desc": "受宠，吉祥，取自连续的词语，寓意美好"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄韓諫議",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "岳阳",
+          "sex": "男",
+          "desc": "取自诗句首字，有气势，象征着远大抱负和开阔胸襟"
+        },
+        {
+          "name": "娟娟",
+          "sex": "女",
+          "desc": "出自诗句“美人娟娟隔秋水”，娟娟形容女子姿态美好，柔美可人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "古柏行",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "青铜",
+          "sex": "男",
+          "desc": "象征坚韧、厚重和长久，有男子汉气概"
+        },
+        {
+          "name": "寒柏",
+          "sex": "男",
+          "desc": "既有寒冬的坚毅，又有柏树的挺拔，象征着高洁的品格"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "觀公孫大娘弟子舞劒器行",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "佳人",
+          "sex": "女",
+          "desc": "形容女子美丽，气质出众，也寓意美好，吉祥"
+        },
+        {
+          "name": "剑气",
+          "sex": "男",
+          "desc": "蕴含侠义豪情，刚毅果敢，但名字略显阳刚"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄人二首  其一",
+      "author": "張佖",
+      "result": [
+        {
+          "name": "依依",
+          "sex": "女",
+          "desc": "柔美婉约，温柔多情"
+        },
+        {
+          "name": "月花",
+          "sex": "女",
+          "desc": "清雅脱俗，美丽动人"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 蓋羅縫 一",
+      "author": "不詳",
+      "result": [
+        {
+          "name": "明月",
+          "sex": "男女皆可",
+          "desc": "象征着光明和希望，意境优美，朗朗上口"
+        },
+        {
+          "name": "征人",
+          "sex": "男",
+          "desc": "虽然字面是征战之人，但也可引申为有抱负、有担当的男子"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 婆羅門",
+      "author": "楊敬述進",
+      "result": [
+        {
+          "name": "乐月",
+          "sex": "女",
+          "desc": "美好的月光，快乐安宁"
+        },
+        {
+          "name": "城霜",
+          "sex": "男女皆可",
+          "desc": "城镇的霜雪，象征着坚韧与纯洁"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 清平調 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "衣裳",
+          "sex": "女",
+          "desc": "美丽典雅，气质出众"
+        },
+        {
+          "name": "华容",
+          "sex": "女",
+          "desc": "容貌姣好，富贵荣华"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 清平調 二",
+      "author": "李白",
+      "result": [
+        {
+          "name": "紅豔",
+          "sex": "女",
+          "desc": "颜色鲜艳，美丽动人，象征着青春活力"
+        },
+        {
+          "name": "豔妝",
+          "sex": "女",
+          "desc": "妆容艳丽，美丽富贵，引人注目"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 清平調 三",
+      "author": "李白",
+      "result": [
+        {
+          "name": "倾国",
+          "sex": "女",
+          "desc": "形容女子貌美，倾国倾城，气质高贵典雅"
+        },
+        {
+          "name": "香北",
+          "sex": "女",
+          "desc": "名字中带有香字，使人联想到芬芳，北字则给人一种清冷脱俗的感觉，适合气质清冷的女性"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 渭城曲",
+      "author": "王維",
+      "result": [
+        {
+          "name": "城雨",
+          "sex": "男",
+          "desc": "城池之雨，寓意包容与沉稳，有担当"
+        },
+        {
+          "name": "青柳",
+          "sex": "女",
+          "desc": "青春活力，婀娜多姿，柳暗花明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 金縷衣",
+      "author": "不詳",
+      "result": [
+        {
+          "name": "惜取",
+          "sex": "男女皆可",
+          "desc": "珍惜时光，把握青春"
+        },
+        {
+          "name": "少年",
+          "sex": "男",
+          "desc": "朝气蓬勃，富有活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "感遇十二首 一",
+      "author": "張九齡",
+      "result": [
+        {
+          "name": "兰桂",
+          "sex": "女",
+          "desc": "兰桂齐芳，象征女子美丽高洁，富有才华"
+        },
+        {
+          "name": "桂潔",
+          "sex": "女",
+          "desc": "皎洁的桂花，象征高洁的品格和美好的气质"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "感遇十二首 二",
+      "author": "張九齡",
+      "result": [
+        {
+          "name": "幽清",
+          "sex": "女",
+          "desc": "气质清幽，淡泊名利"
+        },
+        {
+          "name": "孤清",
+          "sex": "男女皆可",
+          "desc": "超凡脱俗，心境澄澈"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "感遇十二首 四",
+      "author": "張九齡",
+      "result": [
+        {
+          "name": "鸿翠",
+          "sex": "女",
+          "desc": "鸿雁高飞，翠鸟灵动，寓意才情出众，气质脱俗"
+        },
+        {
+          "name": "池潢",
+          "sex": "男",
+          "desc": "虽然池潢指代小环境，但与诗歌整体意境结合，可引申为胸怀宽广，不拘小节"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "感遇十二首 七",
+      "author": "張九齡",
+      "result": [
+        {
+          "name": "丹橘",
+          "sex": "男女皆可",
+          "desc": "丹，红色，象征喜庆、热情；橘，橙黄色，象征活力、希望。丹橘组合寓意着热情活力，前途光明。"
+        },
+        {
+          "name": "绿林",
+          "sex": "男",
+          "desc": "绿林，指茂盛的森林，象征着生命力旺盛，充满希望。也指古代的绿林好汉，象征着侠义和豪情。名字寓意着朝气蓬勃，勇敢正义。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "尋陸鴻漸不遇",
+      "author": "皎然",
+      "result": [
+        {
+          "name": "移家",
+          "sex": "男女皆可",
+          "desc": "象征着新的开始和美好的生活，寓意积极向上"
+        },
+        {
+          "name": "桑麻",
+          "sex": "女",
+          "desc": "体现了诗意的田园生活，给人以平静祥和之感"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "西塞山懷古",
+      "author": "劉禹錫",
+      "result": [
+        {
+          "name": "王氣",
+          "sex": "男",
+          "desc": "霸氣側漏，王者之風"
+        },
+        {
+          "name": "江流",
+          "sex": "男女皆可",
+          "desc": "生生不息，延綿不絕"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "金陵五題 烏衣巷",
+      "author": "劉禹錫",
+      "result": [
+        {
+          "name": "桥燕",
+          "sex": "女",
+          "desc": "轻盈灵动，充满希望"
+        },
+        {
+          "name": "草家",
+          "sex": "男女皆可",
+          "desc": "平易近人，和睦共处"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和樂天春詞",
+      "author": "劉禹錫",
+      "result": [
+        {
+          "name": "妆楼",
+          "sex": "女",
+          "desc": "美丽高贵，气质出众"
+        },
+        {
+          "name": "春光",
+          "sex": "女",
+          "desc": "青春靓丽，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "列女操",
+      "author": "孟郊",
+      "result": [
+        {
+          "name": "梧桐",
+          "sex": "女",
+          "desc": "梧桐树代表着高洁和坚贞，象征女子高贵优雅，气质脱俗"
+        },
+        {
+          "name": "鸳鸯",
+          "sex": "女",
+          "desc": "鸳鸯象征着爱情的忠贞和美好，适合作为女子的名字，寓意爱情美满幸福"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "遊子吟",
+      "author": "孟郊",
+      "result": [
+        {
+          "name": "慈母",
+          "sex": "女",
+          "desc": "体现母爱的伟大，温柔慈祥"
+        },
+        {
+          "name": "春暉",
+          "sex": "女",
+          "desc": "温暖明亮，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "度南澗",
+      "author": "蔡襄",
+      "result": [
+        {
+          "name": "飞桥",
+          "sex": "男女皆可",
+          "desc": "意境优美，富有诗意，象征着跨越阻碍，追求理想"
+        },
+        {
+          "name": "问渔",
+          "sex": "男",
+          "desc": "富有探究精神，不落俗套，象征着对知识和真理的追求"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "谷口書齋寄楊補闕",
+      "author": "錢起",
+      "result": [
+        {
+          "name": "霞帷",
+          "sex": "女",
+          "desc": "霞光映照，华美典雅"
+        },
+        {
+          "name": "竹山",
+          "sex": "男女皆可",
+          "desc": "清秀挺拔，坚韧稳重"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送僧歸日本",
+      "author": "錢起",
+      "result": [
+        {
+          "name": "沧海",
+          "sex": "男",
+          "desc": "胸襟宽广，包容万物"
+        },
+        {
+          "name": "月明",
+          "sex": "女",
+          "desc": "清澈明亮，皎洁温柔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "贈闕下裴舍人",
+      "author": "錢起",
+      "result": [
+        {
+          "name": "鶯林",
+          "sex": "女",
+          "desc": "活泼灵动，充满生机"
+        },
+        {
+          "name": "紫禁",
+          "sex": "男女皆可",
+          "desc": "高贵典雅，气度不凡"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和張僕射塞下曲",
+      "author": "錢起",
+      "result": [
+        {
+          "name": "雁飞",
+          "sex": "男",
+          "desc": "寓意着高远的目标和不畏艰难的精神"
+        },
+        {
+          "name": "月黑",
+          "sex": "男女皆可",
+          "desc": "虽然表面看起来有些阴暗，但象征着黎明前的黑暗，蕴含着希望和光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "賊退示官吏",
+      "author": "元結",
+      "result": [
+        {
+          "name": "太平",
+          "sex": "男",
+          "desc": "象征着盛世，太平盛世，寓意着国家繁荣昌盛，也象征着个人生活安定和谐"
+        },
+        {
+          "name": "源壑",
+          "sex": "男",
+          "desc": "源头与深壑，象征着深远和广阔的胸襟，也代表着生命力的源泉和对未知的探索"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "石魚湖上醉歌",
+      "author": "元結",
+      "result": [
+        {
+          "name": "夏青",
+          "sex": "女",
+          "desc": "夏天般充满活力，青葱般充满朝气"
+        },
+        {
+          "name": "酒徒",
+          "sex": "男",
+          "desc": "豪迈洒脱，不拘小节"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "楓橋夜泊",
+      "author": "張繼",
+      "result": [
+        {
+          "name": "月江",
+          "sex": "男",
+          "desc": "意境深远，气质脱俗"
+        },
+        {
+          "name": "霜钟",
+          "sex": "男女皆可",
+          "desc": "清冷高洁，寓意吉祥"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "酬程延秋夜即事見贈",
+      "author": "韓翃",
+      "result": [
+        {
+          "name": "城星",
+          "sex": "男",
+          "desc": "城府深厚，前途似锦，星光璀璨"
+        },
+        {
+          "name": "月雁",
+          "sex": "女",
+          "desc": "温柔娴静，气质脱俗，自由自在"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "同題仙游觀",
+      "author": "韓翃",
+      "result": [
+        {
+          "name": "风物",
+          "sex": "男女皆可",
+          "desc": "描写景物美好，引申为气质优雅，富有诗意"
+        },
+        {
+          "name": "丹丘",
+          "sex": "男",
+          "desc": "丹丘指仙境，象征超凡脱俗，胸怀坦荡"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寒食",
+      "author": "韓翃",
+      "result": [
+        {
+          "name": "城柳",
+          "sex": "女",
+          "desc": "婀娜多姿，富有诗意"
+        },
+        {
+          "name": "暮烟",
+          "sex": "女",
+          "desc": "温柔婉约，轻盈飘逸"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄李儋元錫",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "花开",
+          "sex": "女",
+          "desc": "象征着美好的事物，充满生机与希望"
+        },
+        {
+          "name": "逢圆",
+          "sex": "男女皆可",
+          "desc": "寓意着重逢和团圆，生活美满幸福"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄全椒山中道士",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "郡客",
+          "sex": "男",
+          "desc": "隐逸之士，高洁脱俗"
+        },
+        {
+          "name": "煮石",
+          "sex": "男女皆可",
+          "desc": "淡泊名利，志趣高雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "秋夜寄丘二十二員外",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "怀散",
+          "sex": "男",
+          "desc": "胸怀广阔，洒脱不羁"
+        },
+        {
+          "name": "君天",
+          "sex": "男",
+          "desc": "君子风度，气宇轩昂"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "賦得暮雨送李胄",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "江雨",
+          "sex": "女",
+          "desc": "有江南女子温婉的气质，雨后清新"
+        },
+        {
+          "name": "建業",
+          "sex": "男",
+          "desc": "有建功立业，成就一番事业的寓意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送楊氏女",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "日行",
+          "sex": "女",
+          "desc": "积极向上，前途光明，适合女性，有太阳般温暖的活力和行云流水般的优雅"
+        },
+        {
+          "name": "慈柔",
+          "sex": "女",
+          "desc": "温柔善良，慈爱体贴，适合女性，体现女性的温柔与善良"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "長安遇馮著",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "客春",
+          "sex": "男",
+          "desc": "经历丰富，充满生机"
+        },
+        {
+          "name": "衣燕",
+          "sex": "女",
+          "desc": "温婉雅致，自由快乐"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夕次盱眙縣",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "落帆",
+          "sex": "男",
+          "desc": "意指放下远行归家，象征着平静与安稳，有成熟稳重的内涵。"
+        },
+        {
+          "name": "淮雁",
+          "sex": "男女皆可",
+          "desc": "淮水与大雁，意境开阔，象征着自由和远方，名字好听，寓意美好。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "東郊",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "清曙",
+          "sex": "男",
+          "desc": "形容人豁达开朗，前程光明"
+        },
+        {
+          "name": "芳原",
+          "sex": "女",
+          "desc": "象征美丽，富有生机和希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "滁州西澗",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "幽草",
+          "sex": "女",
+          "desc": "娴静优雅，富有生命力"
+        },
+        {
+          "name": "黄鹂",
+          "sex": "女",
+          "desc": "活泼灵动，歌声婉转"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "和晉陵陸丞早春遊望",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "雲霞",
+          "sex": "女",
+          "desc": "美丽，朝气蓬勃，前途光明"
+        },
+        {
+          "name": "梅柳",
+          "sex": "女",
+          "desc": "优雅，温柔，富有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "與高適薛據慈恩寺浮圖",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "湧出",
+          "sex": "男",
+          "desc": "名字取自诗句“塔势如湧出”，有蓬勃向上、气势非凡之意。"
+        },
+        {
+          "name": "高耸",
+          "sex": "男",
+          "desc": "名字取自诗句“孤高耸天宫”，体现了高洁、坚毅的品质。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "白雪歌送武判官歸京",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "春风",
+          "sex": "女",
+          "desc": "温暖美好，充满希望"
+        },
+        {
+          "name": "梨花",
+          "sex": "女",
+          "desc": "纯洁美丽，清新脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "輪臺歌奉送封大夫出師西征",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "城北",
+          "sex": "男",
+          "desc": "指代北方边塞，有雄壮、坚毅之感。"
+        },
+        {
+          "name": "羽書",
+          "sex": "男",
+          "desc": "象征着军功和捷报，寓意着建功立业。"
+        },
+        {
+          "name": "西征",
+          "sex": "男",
+          "desc": "大气磅礴，充满阳刚之气，寓意着开拓进取。"
+        },
+        {
+          "name": "勤王",
+          "sex": "男",
+          "desc": "体现了忠君爱国，尽忠职守的精神。"
+        },
+        {
+          "name": "功名",
+          "sex": "男",
+          "desc": "象征着成就和荣誉，寓意着建功立业。"
+        },
+        {
+          "name": "雪海",
+          "sex": "女",
+          "desc": "虽然带有战场的肃杀之气，但“雪”字也体现出一种圣洁、纯净之感。"
+        },
+        {
+          "name": "靜邊",
+          "sex": "男女皆可",
+          "desc": "有宁静、安宁的寓意，也象征着边疆的安定。"
+        },
+        {
+          "name": "青史",
+          "sex": "男女皆可",
+          "desc": "指青史留名，流芳百世，具有美好的祝愿。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "走馬川行奉送出師西征",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "雪海",
+          "sex": "男",
+          "desc": "象征着广阔的胸襟和坚韧不拔的精神，寓意着能够克服困难，取得成功"
+        },
+        {
+          "name": "金甲",
+          "sex": "男",
+          "desc": "象征着威武不屈，坚强勇敢的品质，给人以安全感和力量感"
+        },
+        {
+          "name": "夜吼",
+          "sex": "男",
+          "desc": "蕴含着一种不屈不挠、勇往直前的精神，适合有魄力的人"
+        },
+        {
+          "name": "西门",
+          "sex": "男女皆可",
+          "desc": "寓意着开阔的视野和远大的抱负，象征着美好的未来"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "寄左省杜拾遺",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "晓暮",
+          "sex": "男",
+          "desc": "蕴含着朝气蓬勃和岁月沉淀，象征着经历丰富，成熟稳重。"
+        },
+        {
+          "name": "天青",
+          "sex": "男女皆可",
+          "desc": "天青色等烟雨，而我在等你。意境优美，清新脱俗，象征着希望和美好。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "奉和中書舍人賈至早朝大明宮",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "紫莺",
+          "sex": "女",
+          "desc": "紫色代表高贵典雅，莺歌婉转动听，名字寓意气质高贵，歌声甜美动人"
+        },
+        {
+          "name": "曉鐘",
+          "sex": "男",
+          "desc": "象征着黎明破晓，万物复苏，寓意着积极向上，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "逢入京使",
+      "author": "岑參",
+      "result": [
+        {
+          "name": "园望",
+          "sex": "男女皆可",
+          "desc": "寄托对故园的思念和美好祝愿，寓意着不忘初心，前程远大"
+        },
+        {
+          "name": "袖淚",
+          "sex": "女",
+          "desc": "虽然字面略显伤感，但包含着深沉的思念和情感，读来有韵味，适合文艺的女生"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "訪羊尊師",
+      "author": "孫革",
+      "result": [
+        {
+          "name": "松云",
+          "sex": "男",
+          "desc": "寓意高洁、洒脱，隐逸之士"
+        },
+        {
+          "name": "童深",
+          "sex": "男",
+          "desc": "童真之心，深邃的思想"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "書邊事",
+      "author": "張喬",
+      "result": [
+        {
+          "name": "角徵",
+          "sex": "男",
+          "desc": "有角声，有征战，象征着坚毅和远大的抱负"
+        },
+        {
+          "name": "清白",
+          "sex": "男女皆可",
+          "desc": "清风朗月，纯洁无瑕，寓意着高洁的品格和美好的未来"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "行路難三首 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "金樽",
+          "sex": "男",
+          "desc": "尊贵大气，器宇轩昂"
+        },
+        {
+          "name": "沧海",
+          "sex": "男女皆可",
+          "desc": "胸怀宽广，志向远大"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "行路難三首 二",
+      "author": "李白",
+      "result": [
+        {
+          "name": "青天",
+          "sex": "男",
+          "desc": "象征着胸襟广阔，志向高远"
+        },
+        {
+          "name": "王门",
+          "sex": "男",
+          "desc": "虽带有几分落寞，但也体现了追求和抱负"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "行路難三首 三",
+      "author": "李白",
+      "result": [
+        {
+          "name": "莫食",
+          "sex": "男",
+          "desc": "警示自己不要被眼前的利益迷惑，保持清醒"
+        },
+        {
+          "name": "含光",
+          "sex": "男女皆可",
+          "desc": "内敛深沉，蕴藏实力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "長相思",
+      "author": "李白",
+      "result": [
+        {
+          "name": "长天",
+          "sex": "男",
+          "desc": "意境开阔，胸怀广阔，很有气魄"
+        },
+        {
+          "name": "秋蘭",
+          "sex": "女",
+          "desc": "秋兰的气质高洁，幽香典雅，名字清新脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "關山月",
+      "author": "李白",
+      "result": [
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "名字典雅，寓意美好，象征着纯洁、温柔和希望。"
+        },
+        {
+          "name": "长风",
+          "sex": "男",
+          "desc": "名字大气磅礴，寓意着自由、远大志向和蓬勃的生命力。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "玉階怨",
+      "author": "李白",
+      "result": [
+        {
+          "name": "玉露",
+          "sex": "女",
+          "desc": "晶莹剔透，气质脱俗"
+        },
+        {
+          "name": "秋月",
+          "sex": "女",
+          "desc": "清冷皎洁，高贵典雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "清平調詞三首 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "衣裳",
+          "sex": "女",
+          "desc": "美丽典雅，气质出众"
+        },
+        {
+          "name": "华容",
+          "sex": "女",
+          "desc": "容貌姣好，富贵荣华"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "清平調詞三首 二",
+      "author": "李白",
+      "result": [
+        {
+          "name": "豔雲",
+          "sex": "女",
+          "desc": "美丽而飘逸，如云彩般轻盈美好"
+        },
+        {
+          "name": "雨燕",
+          "sex": "女",
+          "desc": "灵动活泼，如雨燕般轻快敏捷"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "靜夜思",
+      "author": "李白",
+      "result": [
+        {
+          "name": "月光",
+          "sex": "女",
+          "desc": "温柔娴静，如梦如幻"
+        },
+        {
+          "name": "举头",
+          "sex": "男",
+          "desc": "意气风发，志存高远"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春思",
+      "author": "李白",
+      "result": [
+        {
+          "name": "燕秦",
+          "sex": "男",
+          "desc": "燕雀安知鸿鹄之志，秦指始皇，大气磅礴"
+        },
+        {
+          "name": "桑妾",
+          "sex": "女",
+          "desc": "桑梓情深，女子温柔多情"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "子夜吳歌 春歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "羅敷",
+          "sex": "女",
+          "desc": "美丽贤淑，气质出众"
+        },
+        {
+          "name": "綠紅",
+          "sex": "女",
+          "desc": "颜色鲜艳，充满活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "子夜吳歌 夏歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "湖菡",
+          "sex": "女",
+          "desc": "有如出水芙蓉般清丽脱俗，也象征着纯洁美好的品格"
+        },
+        {
+          "name": "荷花",
+          "sex": "女",
+          "desc": "美好、高洁，象征着纯洁和美丽"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "子夜吳歌 秋歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "长安",
+          "sex": "男女皆可",
+          "desc": "象征着盛世太平，大气磅礴，寓意着国家昌盛，繁荣兴旺"
+        },
+        {
+          "name": "月明",
+          "sex": "女",
+          "desc": "温柔婉约，富有诗意，象征着美好的事物和光明，寓意着前途光明，幸福美满"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "子夜吳歌 冬歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "明朝",
+          "sex": "男",
+          "desc": "象征光明和朝气，寓意前途光明，蒸蒸日上"
+        },
+        {
+          "name": "絮征",
+          "sex": "男",
+          "desc": "虽然字面略显沉重，但可引申为对远方征途的期许和对理想的执着追求"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "贈孟浩然",
+      "author": "李白",
+      "result": [
+        {
+          "name": "孟夫",
+          "sex": "男",
+          "desc": "继承孟子的精神，有夫子的风范，刚正不阿"
+        },
+        {
+          "name": "红颜",
+          "sex": "女",
+          "desc": "美丽，有志向，不慕名利"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "廬山謠寄盧侍御虛舟",
+      "author": "李白",
+      "result": [
+        {
+          "name": "楚狂",
+          "sex": "男",
+          "desc": "狂放不羁，才华横溢"
+        },
+        {
+          "name": "玉京",
+          "sex": "男女皆可",
+          "desc": "高洁圣洁，仙风道骨"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夢遊天姥吟留別",
+      "author": "李白",
+      "result": [
+        {
+          "name": "瀛洲",
+          "sex": "男",
+          "desc": "寓意广阔的胸襟和远大的志向，取自诗句首句，发音响亮"
+        },
+        {
+          "name": "天姥",
+          "sex": "男女皆可",
+          "desc": "气势磅礴，意境深远，取自诗句第二句，读来朗朗上口"
+        },
+        {
+          "name": "青崖",
+          "sex": "男女皆可",
+          "desc": "清新脱俗，意境优美，取自诗句结尾，发音轻快"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "金陵酒肆留別",
+      "author": "李白",
+      "result": [
+        {
+          "name": "柳姬",
+          "sex": "女",
+          "desc": "婀娜多姿，气质出众"
+        },
+        {
+          "name": "金陵",
+          "sex": "男女皆可",
+          "desc": "地域文化底蕴深厚，大气磅礴"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "黃鶴樓送孟浩然之廣陵",
+      "author": "李白",
+      "result": [
+        {
+          "name": "西辭",
+          "sex": "男",
+          "desc": "具有文化底蕴，寓意告别过去，走向未来"
+        },
+        {
+          "name": "煙花",
+          "sex": "女",
+          "desc": "美丽，浪漫，充满生机"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "渡荆門送別",
+      "author": "李白",
+      "result": [
+        {
+          "name": "远游",
+          "sex": "男",
+          "desc": "胸怀宽广，志向高远，游历四方"
+        },
+        {
+          "name": "天镜",
+          "sex": "男女皆可",
+          "desc": "气质脱俗，超凡脱俗，具有非凡的智慧和洞察力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送友人",
+      "author": "李白",
+      "result": [
+        {
+          "name": "青山",
+          "sex": "男",
+          "desc": "象征着高洁的品格和坚定的意志"
+        },
+        {
+          "name": "白水",
+          "sex": "女",
+          "desc": "寓意着纯洁、温柔和美好的生活"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宣州謝朓樓餞別校書叔雲",
+      "author": "李白",
+      "result": [
+        {
+          "name": "长风",
+          "sex": "男",
+          "desc": "寓意胸襟广阔，志向高远"
+        },
+        {
+          "name": "逸兴",
+          "sex": "男女皆可",
+          "desc": "表达才华横溢，兴致勃勃"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "下終南山過斛斯山人宿置酒",
+      "author": "李白",
+      "result": [
+        {
+          "name": "碧月",
+          "sex": "女",
+          "desc": "清新脱俗，优雅宁静"
+        },
+        {
+          "name": "翠微",
+          "sex": "女",
+          "desc": "秀美端庄，气质脱俗"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登金陵鳳凰臺",
+      "author": "李白",
+      "result": [
+        {
+          "name": "凤游",
+          "sex": "女",
+          "desc": "姿态优雅，自由潇洒"
+        },
+        {
+          "name": "江流",
+          "sex": "男",
+          "desc": "气度不凡，胸怀宽广"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "早發白帝城",
+      "author": "李白",
+      "result": [
+        {
+          "name": "朝陵",
+          "sex": "男",
+          "desc": "象征着朝气蓬勃，事业有成，前程似锦"
+        },
+        {
+          "name": "白帝",
+          "sex": "男",
+          "desc": "霸气侧漏，王者风范，寓意尊贵"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夜泊牛渚懷古",
+      "author": "李白",
+      "result": [
+        {
+          "name": "西江",
+          "sex": "男",
+          "desc": "意境开阔，胸怀广阔"
+        },
+        {
+          "name": "青月",
+          "sex": "女",
+          "desc": "清丽脱俗，高洁明亮"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "月下獨酌四首 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "邀月",
+          "sex": "女",
+          "desc": "优雅、浪漫，富有诗意，寓意广阔的胸襟和美好的愿望"
+        },
+        {
+          "name": "月影",
+          "sex": "男女皆可",
+          "desc": "温柔、神秘，富有诗意，象征着对美好事物的向往和追寻"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "聽蜀僧濬彈琴",
+      "author": "李白",
+      "result": [
+        {
+          "name": "峨眉",
+          "sex": "女",
+          "desc": "眉目如画，秀丽挺拔"
+        },
+        {
+          "name": "绿松",
+          "sex": "男女皆可",
+          "desc": "清新脱俗，坚韧挺拔"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "怨情",
+      "author": "李白",
+      "result": [
+        {
+          "name": "美人",
+          "sex": "女",
+          "desc": "美丽温柔，气质出众"
+        },
+        {
+          "name": "珠簾",
+          "sex": "女",
+          "desc": "高贵典雅，神秘莫测"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "淮上喜會梁川故人",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "江汉",
+          "sex": "男",
+          "desc": "寓意胸襟广阔，博学多才"
+        },
+        {
+          "name": "逢笑",
+          "sex": "女",
+          "desc": "寓意乐观开朗，快乐幸福"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "郡齋雨中與諸文士燕集",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "宴寝",
+          "sex": "男",
+          "desc": "指宴饮休息的地方，象征安逸舒适，但略显沉闷"
+        },
+        {
+          "name": "逍遥",
+          "sex": "男女皆可",
+          "desc": "形容无拘无束，自由自在，积极向上，适合作为名字"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "初發揚子寄元大校書",
+      "author": "韋應物",
+      "result": [
+        {
+          "name": "悽泛",
+          "sex": "男",
+          "desc": "形容人飘逸洒脱，不落俗套"
+        },
+        {
+          "name": "歸棹",
+          "sex": "女",
+          "desc": "名字意境优美，有古典韵味"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 江南曲",
+      "author": "李益",
+      "result": [
+        {
+          "name": "朝朝",
+          "sex": "女",
+          "desc": "美好而充满希望的时光"
+        },
+        {
+          "name": "潮信",
+          "sex": "女",
+          "desc": "蕴含着对未来的期许与希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 燕歌行",
+      "author": "高適",
+      "result": [
+        {
+          "name": "家破",
+          "sex": "男",
+          "desc": "体现男儿渴望建功立业的决心，但略显悲壮"
+        },
+        {
+          "name": "榆关",
+          "sex": "男",
+          "desc": "指代雄关险隘，寓意坚韧和守卫"
+        },
+        {
+          "name": "羽书",
+          "sex": "男",
+          "desc": "象征着军功和捷报，适合有抱负的男性"
+        },
+        {
+          "name": "落日",
+          "sex": "男女皆可",
+          "desc": "意境深远，略带一丝忧伤，但也有着夕阳无限好的寓意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 從軍行",
+      "author": "李頎",
+      "result": [
+        {
+          "name": "日望",
+          "sex": "男",
+          "desc": "有远大志向，积极进取"
+        },
+        {
+          "name": "公主",
+          "sex": "女",
+          "desc": "气质高贵，富有才情"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 蜀道難",
+      "author": "李白",
+      "result": [
+        {
+          "name": "高标",
+          "sex": "男",
+          "desc": "比喻人品格高尚，志向远大"
+        },
+        {
+          "name": "天梯",
+          "sex": "男女皆可",
+          "desc": "象征着通往成功的道路，充满希望和挑战"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 長信怨 二",
+      "author": "王昌齡",
+      "result": [
+        {
+          "name": "帚玉",
+          "sex": "女",
+          "desc": "象征纯洁高贵，气质脱俗"
+        },
+        {
+          "name": "殿陽",
+          "sex": "男",
+          "desc": "气度恢宏，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 玉階怨",
+      "author": "李白",
+      "result": [
+        {
+          "name": "玉露",
+          "sex": "女",
+          "desc": "晶莹剔透，气质高雅"
+        },
+        {
+          "name": "秋月",
+          "sex": "女",
+          "desc": "清冷皎洁，温柔娴静"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 子夜四時歌四首 春歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "羅敷",
+          "sex": "女",
+          "desc": "女子美丽，勤劳善良"
+        },
+        {
+          "name": "綠紅",
+          "sex": "女",
+          "desc": "颜色鲜艳，充满活力"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 子夜四時歌四首 夏歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "湖菡",
+          "sex": "女",
+          "desc": "美丽脱俗，清雅高洁"
+        },
+        {
+          "name": "荷花",
+          "sex": "女",
+          "desc": "清纯美丽，出淤泥而不染"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 子夜四時歌四首 秋歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "长安",
+          "sex": "男女皆可",
+          "desc": "大气磅礴，象征着盛世太平，有王者之气"
+        },
+        {
+          "name": "月明",
+          "sex": "女",
+          "desc": "温柔皎洁，寄托着对美好未来的期盼"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "相和歌辭 子夜四時歌四首 冬歌",
+      "author": "李白",
+      "result": [
+        {
+          "name": "明朝",
+          "sex": "男",
+          "desc": "象征光明和朝气，寓意前途光明，朝气蓬勃"
+        },
+        {
+          "name": "素手",
+          "sex": "女",
+          "desc": "素雅娴静，巧夺天工，气质出众"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "琴曲歌辭 列女操",
+      "author": "孟郊",
+      "result": [
+        {
+          "name": "梧桐",
+          "sex": "女",
+          "desc": "梧桐树挺拔秀丽，象征女子高洁坚韧的品格。"
+        },
+        {
+          "name": "鸳鸯",
+          "sex": "女",
+          "desc": "鸳鸯成双成对，象征爱情忠贞，也寓意着美好姻缘。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 遊子吟",
+      "author": "孟郊",
+      "result": [
+        {
+          "name": "慈母",
+          "sex": "女",
+          "desc": "体现母爱的伟大，温柔慈祥"
+        },
+        {
+          "name": "春暉",
+          "sex": "女",
+          "desc": "温暖明亮，充满希望"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 麗人行",
+      "author": "杜甫",
+      "result": [
+        {
+          "name": "暮春",
+          "sex": "女",
+          "desc": "美好的季节，象征着青春和活力"
+        },
+        {
+          "name": "水边",
+          "sex": "女",
+          "desc": "秀丽婉约，温柔娴静"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 長相思三首 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "秋寒",
+          "sex": "女",
+          "desc": "秋高气爽，气质清冷，略带忧愁美"
+        },
+        {
+          "name": "明波",
+          "sex": "男女皆可",
+          "desc": "光明磊落，心胸开阔，才华横溢"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 長相思三首 二",
+      "author": "李白",
+      "result": [
+        {
+          "name": "含月",
+          "sex": "女",
+          "desc": "温柔美丽，气质优雅"
+        },
+        {
+          "name": "月明",
+          "sex": "女",
+          "desc": "光明磊落，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 行路難三首 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "金尊",
+          "sex": "男",
+          "desc": "尊贵、高雅，寓意着高尚的品格和地位"
+        },
+        {
+          "name": "沧海",
+          "sex": "男女皆可",
+          "desc": "胸怀宽广，有远大的志向和抱负，象征着广阔的前程"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 行路難三首 二",
+      "author": "李白",
+      "result": [
+        {
+          "name": "青天",
+          "sex": "男",
+          "desc": "胸襟开阔，志向高远"
+        },
+        {
+          "name": "王门",
+          "sex": "男",
+          "desc": "尊贵显赫，前途光明"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 行路難三首 三",
+      "author": "李白",
+      "result": [
+        {
+          "name": "含光",
+          "sex": "男",
+          "desc": "蕴含光明，气质高贵，象征着深藏不露的才华和内敛的光芒。"
+        },
+        {
+          "name": "鹤鸣",
+          "sex": "男女皆可",
+          "desc": "“鹤鸣”取自“华亭鹤唳”，鹤鸣声清越，象征着高洁、脱俗的气质和美好的品德。"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 長干曲四首 一",
+      "author": "崔顥",
+      "result": [
+        {
+          "name": "君住",
+          "sex": "女",
+          "desc": "高贵优雅，温柔娴静"
+        },
+        {
+          "name": "横塘",
+          "sex": "女",
+          "desc": "诗情画意，秀丽多姿"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 長干曲四首 二",
+      "author": "崔顥",
+      "result": [
+        {
+          "name": "江水",
+          "sex": "女",
+          "desc": "秀美灵动，温柔婉约"
+        },
+        {
+          "name": "长干",
+          "sex": "男女皆可",
+          "desc": "地域文化底蕴深厚，寓意长久安宁"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 長干行二首 一",
+      "author": "李白",
+      "result": [
+        {
+          "name": "青梅",
+          "sex": "女",
+          "desc": "天真烂漫，纯洁美好"
+        },
+        {
+          "name": "长干",
+          "sex": "女",
+          "desc": "悠久绵长，安宁祥和"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 獨不見",
+      "author": "沈佺期",
+      "result": [
+        {
+          "name": "燕梁",
+          "sex": "女",
+          "desc": "燕子轻盈，梁上安稳，寓意女子温柔娴静，生活安定"
+        },
+        {
+          "name": "寒雁",
+          "sex": "女",
+          "desc": "寒雁南飞，象征坚韧和对未来的期盼，名字意境优美，有诗意"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "雜曲歌辭 秋夜曲",
+      "author": "王涯",
+      "result": [
+        {
+          "name": "桂魄",
+          "sex": "女",
+          "desc": "高雅脱俗，气质出众"
+        },
+        {
+          "name": "露衣",
+          "sex": "女",
+          "desc": "清新淡雅，温柔婉约"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春思",
+      "author": "皇甫冉",
+      "result": [
+        {
+          "name": "莺燕",
+          "sex": "女",
+          "desc": "活泼灵动，充满生机"
+        },
+        {
+          "name": "明月",
+          "sex": "女",
+          "desc": "温柔皎洁，寄托思念"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "夜月",
+      "author": "劉方平",
+      "result": [
+        {
+          "name": "月色",
+          "sex": "女",
+          "desc": "温柔婉约，气质脱俗"
+        },
+        {
+          "name": "春暖",
+          "sex": "女",
+          "desc": "生机勃勃，温暖人心"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "春怨",
+      "author": "劉方平",
+      "result": [
+        {
+          "name": "日落",
+          "sex": "女",
+          "desc": "意境深远，温柔婉约"
+        },
+        {
+          "name": "金屋",
+          "sex": "女",
+          "desc": "富贵吉祥，金玉满堂"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "登鸛雀樓",
+      "author": "王之渙",
+      "result": [
+        {
+          "name": "日黄",
+          "sex": "男",
+          "desc": "光明磊落，蓬勃向上"
+        },
+        {
+          "name": "层楼",
+          "sex": "男女皆可",
+          "desc": "胸怀大志，步步高升"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "涼州詞二首 一",
+      "author": "王之渙",
+      "result": [
+        {
+          "name": "河山",
+          "sex": "男",
+          "desc": "气势磅礴，坚韧稳重"
+        },
+        {
+          "name": "远春",
+          "sex": "女",
+          "desc": "视野开阔，前程似锦"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "闕題",
+      "author": "劉眘虛",
+      "result": [
+        {
+          "name": "白云",
+          "sex": "女",
+          "desc": "纯洁无瑕，气质飘逸"
+        },
+        {
+          "name": "青溪",
+          "sex": "女",
+          "desc": "清新脱俗，秀丽典雅"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "征怨",
+      "author": "柳中庸",
+      "result": [
+        {
+          "name": "金河",
+          "sex": "男",
+          "desc": "富贵荣华，气势磅礴"
+        },
+        {
+          "name": "玉关",
+          "sex": "男",
+          "desc": "高洁壮志，守护平安"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "送李端",
+      "author": "嚴維",
+      "result": [
+        {
+          "name": "关人",
+          "sex": "男",
+          "desc": "关隘之人，有担当，有责任感"
+        },
+        {
+          "name": "寒归",
+          "sex": "男女皆可",
+          "desc": "气质清冷，归于平淡，但有内涵"
+        }
+      ],
+      "success": true
+    },
+    {
+      "title": "宮詞五首 二",
+      "author": "顧況",
+      "result": [
+        {
+          "name": "楼月",
+          "sex": "女",
+          "desc": "高贵优雅，温柔娴静，如月宫仙子般美丽脱俗"
+        },
+        {
+          "name": "天河",
+          "sex": "男女皆可",
+          "desc": "气度恢宏，胸怀广阔，如同浩瀚银河般深邃而富有魅力"
+        }
+      ],
+      "success": true
+    }
+  ]
+}

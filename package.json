@@ -1,0 +1,16 @@
+{
+  "name": "chinese-poetry",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://github.com/chinese-poetry/chinese-poetry\">       <img src=\"https://avatars3.githubusercontent.com/u/30764933?s=200&v=4\" alt=\"chinese-poetry\">   </a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.5.0"
+  }
+}
