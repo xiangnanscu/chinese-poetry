@@ -56,6 +56,4 @@ pnpm-lock.yaml
 yarn.lock
 package-lock.json
 
-# 忽略配置和环境文件
-.env
-.env.*
+

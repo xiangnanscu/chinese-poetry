@@ -1,0 +1,14 @@
+{
+  "gemini": {
+    "model": "gemini-1.5-flash-latest",
+    "timeout": 30000
+  },
+  "batchProcess": {
+    "rpm": 10,
+    "maxConcurrent": 3,
+    "outputDir": "诗名建议_测试",
+    "startIndex": 0,
+    "endIndex": 3
+  },
+  "mockMode": true
+}
