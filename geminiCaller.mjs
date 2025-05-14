@@ -41,7 +41,7 @@ async function callGeminiApi(modelName, promptText) {
             generationConfig, // 应用生成配置
         });
 
-        console.log(`正在向模型 <span class="math-inline">\{modelName\} 发送 Prompt\: "</span>{promptText}"`);
+        // console.log(`正在向模型 <span class="math-inline">\{modelName\} 发送 Prompt\: "</span>{promptText}"`);
 
         // 使用 GenerateContentRequest 对象结构来传递 prompt 和 generationConfig
         const result = await model.generateContent({
@@ -81,7 +81,7 @@ async function callGeminiApi(modelName, promptText) {
         }
 
         const responseText = candidate.content.parts[0].text;
-        console.log("从 Gemini API 收到的原始文本响应:\n", responseText);
+        // console.log("从 Gemini API 收到的原始文本响应:\n", responseText);
 
         try {
             // responseMimeType: "application/json" 应该确保 responseText 是一个有效的 JSON 字符串。
@@ -165,6 +165,7 @@ async function rpmControlledBatch(asyncFn, fnArgs, options = {}) {
     } else if (requestsInWindow >= rpm) {
       // 如果当前窗口的请求数已达到上限，等待到下一个窗口
       const waitTime = windowDuration - timeElapsed;
+      console.log(`等待 ${waitTime} 毫秒后继续...`);
       await new Promise(resolve => setTimeout(resolve, waitTime));
       // 重置窗口
       windowStartTime = Date.now();
@@ -176,7 +177,7 @@ async function rpmControlledBatch(asyncFn, fnArgs, options = {}) {
 
     try {
       // 执行异步函数
-      console.log(`执行任务 #${taskIndex+1}，参数:`, args);
+      // console.log(`执行任务 #${taskIndex+1}，参数:`, args);
       results[taskIndex] = await asyncFn(...args);
     } catch (error) {
       console.error(`任务 #${taskIndex+1} 执行出错:`, error);

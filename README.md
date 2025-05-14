@@ -34,8 +34,6 @@ OUTPUT_DIR=诗名建议
 START_INDEX=0
 END_INDEX=-1
 
-# 模拟模式 (true/false)
-MOCK_MODE=true
 ```
 
 ## 使用方法

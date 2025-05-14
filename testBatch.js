@@ -12,7 +12,6 @@ const dotenv = require('dotenv');
     process.env.START_INDEX = "0";
     process.env.END_INDEX = "3";
     process.env.OUTPUT_DIR = "诗名建议_测试";
-    process.env.MOCK_MODE = "true";
 
     console.log('已设置测试环境变量，将只处理前3首诗');
 
