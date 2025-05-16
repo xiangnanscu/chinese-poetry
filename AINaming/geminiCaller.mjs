@@ -8,10 +8,11 @@ dotenv.config(); // 从 .env 文件加载环境变量
  *
  * @param {string} modelName 要使用的 Gemini 模型的名称 (例如 "gemini-1.5-flash-latest").
  * @param {string} promptText 发送给模型的 Prompt。这个 Prompt 应该指示模型返回 JSON 格式的字符串。
+ * @param {Object} [config={}] 自定义的生成配置，会与默认配置合并。
  * @returns {Promise<object>} 一个 Promise，解析为从模型响应中解析得到的 JSON 对象。
  * @throws {Error} 如果 API 调用失败、API 密钥缺失或响应无法解析为 JSON。
  */
-async function callGeminiApi(modelName, promptText) {
+async function callGeminiApi(modelName, promptText, config = {}) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
         console.error("错误: 环境变量中未设置 GEMINI_API_KEY。");
@@ -22,11 +23,14 @@ async function callGeminiApi(modelName, promptText) {
         const genAI = new GoogleGenerativeAI(apiKey);
 
         // 配置生成参数，强制输出 JSON
-        const generationConfig = {
+        const defaultConfig = {
             // temperature: 0.7, // 例如，按需调整
             // maxOutputTokens: 2048, // 例如
-            responseMimeType: "application/json", // 强制模型输出 JSON
+            // responseMimeType: "application/json",
         };
+
+        // 合并默认配置和用户提供的配置
+        const generationConfig = { ...defaultConfig, ...config };
 
         const model = genAI.getGenerativeModel({
             model: modelName,
@@ -89,9 +93,7 @@ async function callGeminiApi(modelName, promptText) {
             const jsonResult = JSON.parse(responseText);
             return jsonResult;
         } catch (parseError) {
-            console.error("错误: 解析 Gemini 响应为 JSON 时失败:", parseError);
-            console.error("解析失败的原始响应:", responseText);
-            throw new Error(`解析 Gemini 响应为 JSON 失败。原始文本: ${responseText.substring(0, 200)}...`);
+            return responseText;
         }
 
     } catch (error) {

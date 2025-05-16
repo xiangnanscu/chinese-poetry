@@ -26,7 +26,7 @@ async function processFolder(folderPath) {
     for (const file of files) {
       console.log(`处理文件: ${file}`);
       const filePath = path.join(folderPath, file);
-      const outputPath = path.join(outputDir, `${path.basename(file, '.json')}.txt`);
+      const outputPath = path.join(outputDir, `${path.basename(file, '.json')}.md`);
 
       // 解析JSON文件
       const jsonContent = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
@@ -41,14 +41,19 @@ async function processFolder(folderPath) {
       }
 
       // 组合提示词
-      const fullPrompt = `${promptTemplate}\n\n这些诗是：\n\n${processedContent}`;
+      const fullPrompt = `${promptTemplate}${processedContent}`;
 
       // 调用Gemini API
-      console.log(`调用Gemini API生成名字...`);
-      const result = await callGeminiApi("gemini-1.5-flash-latest", fullPrompt);
+      console.log(`调用Gemini API生成名字...`, fullPrompt.length);
+      const config = {
+        temperature: 0.8,
+        // maxOutputTokens: 4096,
+        responseMimeType: "text/plain"
+      };
+      const result = await callGeminiApi("gemini-2.5-flash-preview-04-17", fullPrompt, config);
 
       // 将结果保存到输出文件
-      fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf-8');
+      fs.writeFileSync(outputPath, result, 'utf-8');
       console.log(`结果已保存到: ${outputPath}`);
     }
 
@@ -86,7 +91,7 @@ function processJsonContent(jsonContent) {
 
     // 如果有标题和内容，则返回格式化的行
     if (title && contentText) {
-      return `${title}|${contentText}`;
+      return `《${title}》${contentText}`;
     }
 
     return null;
