@@ -18,7 +18,7 @@ const dotenv = require('dotenv');
     // 执行批处理脚本
     console.log('开始执行批处理...');
     // 使用动态导入执行脚本
-    await import('./batchNameGenerator.js');
+    await import('./batchNameGenerator.mjs');
 
   } catch (error) {
     console.error('测试批处理时发生错误:', error);

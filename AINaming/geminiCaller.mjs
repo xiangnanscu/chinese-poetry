@@ -118,15 +118,53 @@ async function rpmControlledBatch(asyncFn, fnArgs, options = {}) {
   const rpm = options.rpm || 10; // 默认每分钟10次请求
   const maxConcurrent = options.maxConcurrent || rpm; // 默认最大并发数与rpm相同
 
-  // 用于跟踪时间窗口内的请求数
-  let requestsInWindow = 0;
-  let windowStartTime = Date.now();
+  // 用于跟踪时间窗口内的请求
+  let requestTimestamps = []; // 记录每个请求的时间戳
   const windowDuration = 60 * 1000; // 1分钟的毫秒数
 
   // 创建任务索引队列
   const taskQueue = Array.from({ length: fnArgs.length }, (_, i) => i);
   const results = new Array(fnArgs.length);
-  const executing = new Set();
+  let activeTaskCount = 0; // 当前活跃任务数
+  let processingQueue = false; // 标记是否正在处理队列
+
+  // 计算下一个请求需要等待的时间
+  function getTimeUntilNextSlot() {
+    const now = Date.now();
+
+    // 清理一分钟窗口外的旧时间戳
+    requestTimestamps = requestTimestamps.filter(ts => now - ts < windowDuration);
+
+    // 如果窗口内请求数小于rpm限制，可以立即发送
+    if (requestTimestamps.length < rpm) {
+      return 0;
+    }
+
+    // 否则，需要等待最早的请求移出窗口
+    const oldestRequest = requestTimestamps[0];
+    const waitTime = (oldestRequest + windowDuration) - now;
+
+    return Math.max(0, waitTime + 100); // 额外增加100ms缓冲
+  }
+
+  // 异步互斥锁，确保同一时间只有一个任务在检查和更新请求计数
+  async function acquireRateLimitSlot() {
+    const waitTime = getTimeUntilNextSlot();
+
+    if (waitTime > 0) {
+      console.log(`RPM限制已达到(${requestTimestamps.length}/${rpm})。等待 ${waitTime} 毫秒后继续...`);
+      await new Promise(resolve => setTimeout(resolve, waitTime));
+      // 重新检查，因为可能有其他任务在等待期间获取了时间槽
+      return acquireRateLimitSlot();
+    }
+
+    // 记录当前请求时间戳并排序
+    const now = Date.now();
+    requestTimestamps.push(now);
+    requestTimestamps.sort((a, b) => a - b);
+
+    return true;
+  }
 
   // 定义任务执行函数
   async function executeTask(taskIndex) {
@@ -143,69 +181,94 @@ async function rpmControlledBatch(asyncFn, fnArgs, options = {}) {
     if (!Array.isArray(args)) {
       console.error(`任务 #${taskIndex+1} 的参数不是数组: ${args}`);
       results[taskIndex] = { error: new Error("任务参数必须是数组") };
-      executing.delete(taskIndex);
-
-      // 尝试执行下一个任务
-      const nextIndex = taskQueue.shift();
-      if (nextIndex !== undefined) {
-        executing.add(nextIndex);
-        executeTask(nextIndex);
-      }
+      completeTask();
       return;
     }
 
-    // 检查是否需要限制请求频率
-    const now = Date.now();
-    const timeElapsed = now - windowStartTime;
-
-    if (timeElapsed >= windowDuration) {
-      // 如果已经过了一个时间窗口，重置计数器和窗口起始时间
-      windowStartTime = now;
-      requestsInWindow = 0;
-    } else if (requestsInWindow >= rpm) {
-      // 如果当前窗口的请求数已达到上限，等待到下一个窗口
-      const waitTime = windowDuration - timeElapsed;
-      console.log(`等待 ${waitTime} 毫秒后继续...`);
-      await new Promise(resolve => setTimeout(resolve, waitTime));
-      // 重置窗口
-      windowStartTime = Date.now();
-      requestsInWindow = 0;
-    }
-
-    // 增加请求计数器
-    requestsInWindow++;
-
     try {
+      // 获取频率限制许可
+      await acquireRateLimitSlot();
+
       // 执行异步函数
-      // console.log(`执行任务 #${taskIndex+1}，参数:`, args);
       results[taskIndex] = await asyncFn(...args);
     } catch (error) {
       console.error(`任务 #${taskIndex+1} 执行出错:`, error);
       results[taskIndex] = { error };
-    } finally {
-      executing.delete(taskIndex);
 
-      // 尝试执行下一个任务
-      const nextIndex = taskQueue.shift();
-      if (nextIndex !== undefined) {
-        executing.add(nextIndex);
-        executeTask(nextIndex);
+      // 如果是API限制错误(429)，从错误中获取重试延迟信息并全局应用
+      if (error.status === 429 && error.errorDetails) {
+        try {
+          const retryInfo = error.errorDetails.find(d => d['@type'] && d['@type'].includes('RetryInfo'));
+          if (retryInfo && retryInfo.retryDelay) {
+            const retryDelaySec = retryInfo.retryDelay.replace('s', '');
+            const retryDelayMs = parseInt(retryDelaySec) * 1000;
+
+            if (retryDelayMs > 0) {
+              console.log(`API请求被限制，根据API建议暂停所有请求${retryDelayMs}毫秒...`);
+              // 添加一个未来的时间戳，确保在指定延迟后才能继续请求
+              const blockingTimestamp = Date.now() - windowDuration + retryDelayMs;
+              // 添加rpm个这样的时间戳，确保接下来的请求会被延迟处理
+              for (let i = 0; i < rpm; i++) {
+                requestTimestamps.push(blockingTimestamp);
+              }
+              requestTimestamps.sort((a, b) => a - b);
+            }
+          }
+        } catch (e) {
+          // 如果无法解析重试信息，添加默认延迟
+          console.log(`API请求被限制，暂停所有请求30秒...`);
+          const blockingTimestamp = Date.now() - windowDuration + 30000;
+          for (let i = 0; i < rpm; i++) {
+            requestTimestamps.push(blockingTimestamp);
+          }
+          requestTimestamps.sort((a, b) => a - b);
+        }
       }
+    } finally {
+      completeTask();
     }
   }
 
-  // 启动初始批次的任务
-  const initialBatchSize = Math.min(maxConcurrent, taskQueue.length);
-  for (let i = 0; i < initialBatchSize; i++) {
-    const taskIndex = taskQueue.shift();
-    if (taskIndex !== undefined) {
-      executing.add(taskIndex);
-      executeTask(taskIndex); // 立即开始执行任务
+  // 任务完成后的处理
+  function completeTask() {
+    activeTaskCount--;
+    // 使用setTimeout确保有一定延迟后再处理队列
+    setTimeout(() => processQueue(), 50);
+  }
+
+  // 处理队列，启动新任务
+  async function processQueue() {
+    if (processingQueue) return; // 如果已经在处理队列，则直接返回
+    processingQueue = true;
+
+    try {
+      // 当有空闲槽位且队列中还有任务时，启动新任务
+      while (activeTaskCount < maxConcurrent && taskQueue.length > 0) {
+        // 检查是否可以立即发送请求，否则延迟处理队列
+        const waitTime = getTimeUntilNextSlot();
+        if (waitTime > 0) {
+          // 如果需要等待，延迟后重新处理队列
+          setTimeout(() => processQueue(), waitTime);
+          break;
+        }
+
+        const taskIndex = taskQueue.shift();
+        if (taskIndex !== undefined) {
+          activeTaskCount++;
+          // 异步执行任务，但不急于返回控制流
+          setTimeout(() => executeTask(taskIndex), 0);
+        }
+      }
+    } finally {
+      processingQueue = false;
     }
   }
+
+  // 初始化处理队列
+  processQueue();
 
   // 等待所有任务完成
-  while (executing.size > 0) {
+  while (activeTaskCount > 0 || taskQueue.length > 0) {
     await new Promise(resolve => setTimeout(resolve, 100));
   }
 
